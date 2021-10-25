@@ -3,14 +3,18 @@
 #include <avr/interrupt.h>
 #include <avr/sleep.h>
 
-#define temp r16
-
 int main() {
     SPL |= 0xDF;
     MCUCR  |= 0xA0;
 
-    asm("ldi r16, 0xDE");
-    asm("sts 0x0400,r16");
+    uint8_t *mem = (uint8_t*) 0x0400;
+
+    *mem++ = 0xDE;
+    *mem = 0xAD;
+
+    char *str = "SUPER KOSHKA PROTES)))";
+
+    strcpy(mem, str);
 
     return 0;
 }
