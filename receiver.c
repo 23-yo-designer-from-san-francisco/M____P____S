@@ -6,12 +6,12 @@
 #define THREAD1_LENGTH 20  // 3 threads, 20 numbers each
 #define THREAD2_LENGTH 30  // 2 threads, 30 numbers each
 
-uint8_t thr0_20[] = "Offering unsurpassed";
-uint8_t thr1_20[] = "performance, power e";
-uint8_t thr2_20[] = "fficiency and flexibi";
+uint8_t thr0_20[] = "Their combination of";
+uint8_t thr1_20[] = " easily customizable";
+uint8_t thr2_20[] = " peripherals and the";
 
-uint8_t thr0_30[] = "lity, they are an excellent ch";
-uint8_t thr1_30[] = "oice for a variety of embedded";
+uint8_t thr0_30[] = " industry's most code-efficien";
+uint8_t thr1_30[] = "t architecture enable you to b";
 
 
 int main() {
@@ -26,12 +26,12 @@ int main() {
     for (; i != THREAD1_LENGTH; ++i) {
         mem[i] = thr0_20[i];
     }
-    mem += i + 1;
+    mem += i;
     i = 0;
     for (; i != THREAD1_LENGTH; ++i) {
         mem[i] = thr1_20[i];
     }
-    mem += i + 1;
+    mem += i;
     i = 0;
     for (; i != THREAD1_LENGTH; ++i) {
         mem[i] = thr2_20[i];
@@ -39,13 +39,13 @@ int main() {
 
     // Получение 2 потоков по 30 чисел
     i = 0;
-    for (; i != THREAD2_LENGTH; ++i) {  // Получение 2 потоков по 30 чисел
+    for (; i != THREAD2_LENGTH; ++i) {
         mem2[i] = thr0_30[i];
     }
-    mem2 += i + 1;
+    mem2 += i;
     i = 0;
-    for (; i != THREAD2_LENGTH; ++i) {  // Получение 2 потоков по 30 чисел
-        mem2[i] = thr0_30[i];
+    for (; i != THREAD2_LENGTH; ++i) {
+        mem2[i] = thr1_30[i];
     }
 
     return 0;
