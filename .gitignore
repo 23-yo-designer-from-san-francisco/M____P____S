@@ -2,3 +2,7 @@
 *.pdsbak
 *.workspace
 .idea/
+*.DS_Store
+*bak
+*.pdf
+
