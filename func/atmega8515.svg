@@ -24,12 +24,12 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="2.7325627"
-     inkscape:cx="372.54406"
-     inkscape:cy="300.81652"
-     inkscape:window-width="1235"
-     inkscape:window-height="798"
+     inkscape:cx="537.40762"
+     inkscape:cy="126.62107"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="g14327"
      width="296mm" />
@@ -10150,17 +10150,21 @@
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path5257" />
       <text
-         transform="matrix(1,0,0,-0.9998498,392.2709,456.1341)"
-         style="font-variant:normal;font-weight:normal;font-size:5.3262px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text5263"><tspan
-           x="0 1.4806836 5.3262 8.5805082 12.133083 15.9786 19.824116 23.376692"
-           y="0"
+         transform="scale(1.0000751,-0.9999249)"
+         style="font-variant:normal;font-weight:normal;font-size:5.3258px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999925"
+         id="text5263"
+         x="406.49188"
+         y="-455.61938"><tspan
            sodipodi:role="line"
-           id="tspan5259">INTERNAL</tspan><tspan
+           id="tspan5259"
+           x="406.49188"
+           y="-455.61938"
+           style="text-align:center;text-anchor:middle;stroke-width:0.999925">ВНУТРЕННИЙ</tspan><tspan
            sodipodi:role="line"
            id="tspan5261"
-           y="6.4020925"
-           x="-3.7613626 0.38242117 3.9349966 7.7805128 9.2611961 12.222564 15.183931 18.097363 21.138622 25.282406">OSCILLATOR</tspan></text>
+           x="406.49188"
+           y="-448.96213"
+           style="text-align:center;text-anchor:middle;stroke-width:0.999925">ОСЦИЛЛЯТОР</tspan></text>
       <path
          d="m 384.268,412.046 h 42.494 v 18.963 h -42.494 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -10202,13 +10206,16 @@
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path5281" />
       <text
-         transform="matrix(1,0,0,-0.9998498,445.1687,419.8874)"
-         style="font-variant:normal;font-weight:normal;font-size:5.3262px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text5285"><tspan
-           x="0 4.1437836 7.6963592 11.541876 13.022559 15.983926 18.945293 21.858725 24.899984 29.043768"
-           y="0"
+         transform="scale(1.0000751,-0.9999249)"
+         style="font-variant:normal;font-weight:normal;font-size:5.3258px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999925"
+         id="text5285"
+         x="443.76303"
+         y="-420.46793"><tspan
            sodipodi:role="line"
-           id="tspan5283">OSCILLATOR</tspan></text>
+           id="tspan5283"
+           x="443.76303"
+           y="-420.46793"
+           style="stroke-width:0.999925">ОСЦИЛЛЯТОР</tspan></text>
       <path
          d="m 384.268,482.859 h 42.494 v 18.803 h -42.494 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -10419,41 +10426,56 @@
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path5383" />
       <text
-         transform="matrix(1,0,0,-0.9998498,316.5657,257.9373)"
-         style="font-variant:normal;font-weight:normal;font-size:5.3262px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text5389"><tspan
-           x="0 3.8455164 7.9892998 12.426024 15.019884"
-           y="0"
+         transform="scale(1.0000751,-0.9999249)"
+         style="font-variant:normal;font-weight:normal;font-size:5.3258px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999925"
+         id="text5389"
+         x="325.4433"
+         y="-257.40768"><tspan
+           x="325.4433"
            sodipodi:role="line"
-           id="tspan5385">COMP.</tspan><tspan
-           x="-6.4819856 -5.0013018 -1.1557854 2.0985229 5.6510983 9.4966145 12.324827 15.717616 19.563133"
-           y="6.4020925"
+           id="tspan5385"
+           y="-257.40768"
+           style="text-align:center;text-anchor:middle;stroke-width:0.999925">ИНТЕРФЕЙС.</tspan><tspan
            sodipodi:role="line"
-           id="tspan5387">INTERFACE</tspan></text>
+           id="tspan5387"
+           x="325.4433"
+           y="-250.75044"
+           style="text-align:center;text-anchor:middle;stroke-width:0.999925">КОМПАРАТОРА</tspan></text>
       <path
          d="m 240.78,574.876 h 83.148 v 18.883 H 240.78 Z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path5391" />
       <text
-         transform="matrix(1,0,0,-0.9998498,247.1824,582.7175)"
-         style="font-variant:normal;font-weight:normal;font-size:5.3262px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text5395"><tspan
-           x="0 3.5525753 7.6963592 11.38209 13.997253 17.549829 19.030512 22.876028 26.721546 28.202229 31.754805 35.307381 39.152897 42.705471 44.186153 47.685467 51.530987 54.785294 58.0396 61.592178 65.437691"
-           y="0"
+         transform="scale(1.0000751,-0.9999249)"
+         style="font-variant:normal;font-weight:normal;font-size:5.3258px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999925"
+         id="text5395"
+         x="246.3405"
+         y="-582.48676"><tspan
            sodipodi:role="line"
-           id="tspan5393">PORTA DRIVERS/BUFFERS</tspan></text>
+           id="tspan5393"
+           x="246.3405"
+           y="-582.48676"
+           style="stroke-width:0.999925">ДРАЙВЕРЫ/БУФЕРЫ PORTA</tspan></text>
       <path
          d="m 240.78,541.83 h 83.148 v 18.884 H 240.78 Z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path5397" />
       <text
-         transform="matrix(1,0,0,-0.9998498,245.9822,549.7515)"
-         style="font-variant:normal;font-weight:normal;font-size:5.3262px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text5401"><tspan
-           x="0 3.5525753 7.6963592 11.38209 13.997253 17.549829 19.030512 22.876028 24.356712 28.500496 29.98118 32.596344 36.148918 39.110287 40.590969 42.071655 45.917171 49.171478 52.724052 56.569569 59.397781 62.790573 66.636086"
-           y="0"
+         transform="scale(1.0000751,-0.9999249)"
+         style="font-variant:normal;font-weight:normal;font-size:5.3258px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999925"
+         id="text5467-6"
+         x="281.24225"
+         y="-553.52917"><tspan
            sodipodi:role="line"
-           id="tspan5399">PORTA DIGITAL INTERFACE</tspan></text>
+           id="tspan5465-1"
+           x="281.24225"
+           y="-553.52917"
+           style="text-align:center;text-anchor:middle;stroke-width:0.999925">ЦИФРОВОЙ ИНТЕРФЕЙС</tspan><tspan
+           sodipodi:role="line"
+           x="281.24225"
+           y="-546.87195"
+           id="tspan43520-4"
+           style="text-align:center;text-anchor:middle;stroke-width:0.999925">PORTA</tspan></text>
       <path
          d="m 304.082,383.801 h 42.414 v 9.3618 h -42.414 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.333;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -10579,25 +10601,41 @@
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path5463" />
       <text
-         transform="matrix(1,0,0,-0.9998498,396.8325,549.7515)"
-         style="font-variant:normal;font-weight:normal;font-size:5.3262px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text5467"><tspan
-           x="0 3.5525753 7.6963592 11.38209 14.636397 18.481915 19.962597 23.808113 25.288797 29.432581 30.913265 33.528427 37.081005 40.04237 41.523056 43.003738 46.849255 50.103565 53.656139 57.501656 60.329868 63.722656 67.568176"
-           y="0"
+         transform="scale(1.0000751,-0.9999249)"
+         style="font-variant:normal;font-weight:normal;font-size:5.3258px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999925"
+         id="text5467"
+         x="432.1207"
+         y="-552.53766"><tspan
            sodipodi:role="line"
-           id="tspan5465">PORTC DIGITAL INTERFACE</tspan></text>
+           id="tspan5465"
+           x="432.1207"
+           y="-552.53766"
+           style="text-align:center;text-anchor:middle;stroke-width:0.999925">ЦИФРОВОЙ ИНТЕРФЕЙС</tspan><tspan
+           sodipodi:role="line"
+           x="432.1207"
+           y="-545.88043"
+           id="tspan43520"
+           style="text-align:center;text-anchor:middle;stroke-width:0.999925">PORTC</tspan></text>
       <path
          d="m 247.423,190.245 h 99.073 v 18.963 h -99.073 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path5469" />
       <text
-         transform="matrix(1,0,0,-0.9998498,260.627,198.0863)"
-         style="font-variant:normal;font-weight:normal;font-size:5.3262px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text5473"><tspan
-           x="0 3.5525753 7.6963592 11.38209 14.636397 18.188972 19.669657 23.515173 24.995857 29.139641 30.620323 33.235489 36.788063 39.749432 41.230114 42.710796 46.556313 49.810623 53.363197 57.208714 60.036926 63.429714 67.27523"
-           y="0"
+         transform="scale(1.0000751,-0.9999249)"
+         style="font-variant:normal;font-weight:normal;font-size:5.3258px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999925"
+         id="text5467-5"
+         x="296.6113"
+         y="-201.36078"><tspan
            sodipodi:role="line"
-           id="tspan5471">PORTB DIGITAL INTERFACE</tspan></text>
+           id="tspan5465-0"
+           x="296.6113"
+           y="-201.36078"
+           style="text-align:center;text-anchor:middle;stroke-width:0.999925">ЦИФРОВОЙ ИНТЕРФЕЙС</tspan><tspan
+           sodipodi:role="line"
+           x="296.6113"
+           y="-194.70352"
+           id="tspan43520-2"
+           style="text-align:center;text-anchor:middle;stroke-width:0.999925">PORTA</tspan></text>
       <path
          d="m 247.423,157.279 h 99.073 v 18.803 h -99.073 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -10614,14 +10652,6 @@
          d="m 384.268,190.245 h 99.153 v 18.963 h -99.153 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path5481" />
-      <text
-         transform="matrix(1,0,0,-0.9998498,397.3127,198.0863)"
-         style="font-variant:normal;font-weight:normal;font-size:5.3262px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text5485"><tspan
-           x="0 3.5525753 7.6963592 11.38209 14.636397 18.481915 19.962597 23.808113 25.288797 29.432581 30.913265 33.528427 37.081005 40.04237 41.523056 43.003738 46.849255 50.103565 53.656139 57.501656 60.329868 63.722656 67.568176"
-           y="0"
-           sodipodi:role="line"
-           id="tspan5483">PORTD DIGITAL INTERFACE</tspan></text>
       <path
          d="m 384.268,157.279 h 99.153 v 18.803 h -99.153 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -12903,15 +12933,19 @@
       <text
          transform="matrix(1,0,0,-0.9998498,254.0648,357.2356)"
          style="font-variant:normal;font-weight:normal;font-size:5.992px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text6631"><tspan
-           x="0 4.3262239 8.9879999 13.314224 16.975336 21.181721 25.843496"
+         id="text6631"
+         x="16.580402"
+         y="0"><tspan
+           sodipodi:role="line"
+           id="tspan6627"
+           x="16.580402"
            y="0"
+           style="text-align:center;text-anchor:middle">ЛИНИИ</tspan><tspan
            sodipodi:role="line"
-           id="tspan6627">CONTROL</tspan><tspan
-           x="5.9218936 9.2534456 10.919222 15.245445 19.242109"
-           y="7.202384"
-           sodipodi:role="line"
-           id="tspan6629">LINES</tspan></text>
+           id="tspan6629"
+           x="16.580402"
+           y="7.4900002"
+           style="text-align:center;text-anchor:middle">КОНТРОЛЯ</tspan></text>
       <g
          id="g6633"
          transform="translate(301.681,396.683)">
@@ -13363,13 +13397,16 @@
            sodipodi:role="line"
            id="tspan6855">PD0 - PD7PB0 - PB7</tspan></text>
       <text
-         transform="matrix(1,0,0,-0.9998498,250.8636,320.9889)"
-         style="font-variant:normal;font-weight:normal;font-size:7.9893px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text6861"><tspan
-           x="0 4.7696123 10.098475 15.86675 18.087774 23.85605 29.184914"
-           y="0"
+         transform="scale(1.0000751,-0.9999249)"
+         style="font-variant:normal;font-weight:normal;font-size:7.9887px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999925"
+         id="text6861"
+         x="260.72485"
+         y="-321.28751"><tspan
            sodipodi:role="line"
-           id="tspan6859">AVR CPU</tspan></text>
+           id="tspan6859"
+           x="260.72485"
+           y="-321.28751"
+           style="stroke-width:0.999925">ЦПУ</tspan></text>
       <g
          id="g6863"
          transform="translate(372.984,493.741)">
@@ -13423,21 +13460,26 @@
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path6887" />
       <text
-         transform="matrix(1,0,0,-0.9998498,448.93,360.2763)"
-         style="font-variant:normal;font-weight:normal;font-size:5.3262px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text6895"><tspan
-           x="0 1.4806836 5.3262 8.5805082 12.133083 15.9786 19.824116 23.376692"
-           y="0"
+         transform="scale(1.0000751,-0.9999249)"
+         style="font-variant:normal;font-weight:normal;font-size:4px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999925"
+         id="text6895"
+         x="462.26288"
+         y="-359.20541"><tspan
            sodipodi:role="line"
-           id="tspan6889">INTERNAL</tspan><tspan
-           x="-3.6010437 0.24447258 3.7970481 6.7584152 8.2390985 11.791675 15.637191 18.551155 21.805462 25.358038"
-           y="6.4020925"
+           id="tspan6893"
+           x="462.26288"
+           y="-359.20541"
+           style="font-size:4px;text-align:center;text-anchor:middle;stroke-width:0.999925">ВНУТРЕННИЙ</tspan><tspan
            sodipodi:role="line"
-           id="tspan6891">CALIBRATED</tspan><tspan
-           x="-3.7608299 0.38295379 3.9355292 7.7810454 9.2617292 12.223097 15.184464 18.097895 21.139154 25.282938"
-           y="12.804185"
+           x="462.26288"
+           y="-354.20541"
+           id="tspan56378"
+           style="font-size:4px;text-align:center;text-anchor:middle;stroke-width:0.999925">КАЛИБРОВАННЫЙ</tspan><tspan
            sodipodi:role="line"
-           id="tspan6893">OSCILLATOR</tspan></text>
+           x="462.26288"
+           y="-349.20541"
+           id="tspan56380"
+           style="font-size:4px;text-align:center;text-anchor:middle;stroke-width:0.999925">ОСЦИЛЛЯТОР</tspan></text>
       <g
          id="g6897"
          transform="translate(462.134,368.678)">
@@ -13575,21 +13617,21 @@
          style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path6963" />
       <text
-         transform="matrix(1,0,0,-0.9998498,348.5763,556.0726)"
-         style="font-variant:normal;font-weight:normal;font-size:5.3262px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="text6971"><tspan
-           x="0 3.5525753 7.6963592 11.38209 14.636397"
-           y="0"
+         transform="scale(1.0000751,-0.9999249)"
+         style="font-variant:normal;font-weight:normal;font-size:5.3258px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999925"
+         id="text6971"
+         x="358.88171"
+         y="-552.8205"><tspan
            sodipodi:role="line"
-           id="tspan6965">PORTE</tspan><tspan
-           x="-1.1999929 2.6455235 4.1262074 8.2699909 9.7506742 12.365839 15.918414"
-           y="6.3221993"
+           id="tspan6969"
+           x="358.88171"
+           y="-552.8205"
+           style="text-align:center;text-anchor:middle;stroke-width:0.999925">ЦИФР.ИНТ.</tspan><tspan
            sodipodi:role="line"
-           id="tspan6967">DIGITAL</tspan><tspan
-           x="-5.921669 -4.4409857 -0.59546918 2.658839 6.2114143 10.056931 12.885143 16.277933 20.123449"
-           y="12.724292"
-           sodipodi:role="line"
-           id="tspan6969">INTERFACE</tspan></text>
+           x="358.88171"
+           y="-546.16327"
+           id="tspan61770"
+           style="text-align:center;text-anchor:middle;stroke-width:0.999925">PORTE</tspan></text>
       <g
          id="g6973"
          transform="translate(356.419,563.514)">
@@ -13749,6 +13791,22 @@
            style="fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:#231f20;stroke-width:0.333;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="path7051" />
       </g>
+      <text
+         transform="scale(1.0000751,-0.9999249)"
+         style="font-variant:normal;font-weight:normal;font-size:5.3258px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.999925"
+         id="text5467-7"
+         x="431.91367"
+         y="-200.53732"><tspan
+           sodipodi:role="line"
+           id="tspan5465-17"
+           x="431.91367"
+           y="-200.53732"
+           style="text-align:center;text-anchor:middle;stroke-width:0.999925">ЦИФРОВОЙ ИНТЕРФЕЙС</tspan><tspan
+           sodipodi:role="line"
+           x="431.91367"
+           y="-193.88007"
+           id="tspan43520-45"
+           style="text-align:center;text-anchor:middle;stroke-width:0.999925">PORTD</tspan></text>
     </g>
   </g>
 </svg>
