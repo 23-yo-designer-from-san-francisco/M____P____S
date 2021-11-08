@@ -140,60 +140,6 @@ F 3 "~" H 7550 9950 50  0001 C CNN
 	1    7550 9950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R1
-U 1 1 6189D65D
-P 8300 8600
-F 0 "R1" V 8507 8600 50  0000 C CNN
-F 1 "100k" V 8416 8600 50  0000 C CNN
-F 2 "" V 8230 8600 50  0001 C CNN
-F 3 "~" H 8300 8600 50  0001 C CNN
-	1    8300 8600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 6189EDB1
-P 8300 9000
-F 0 "R3" V 8507 9000 50  0000 C CNN
-F 1 "100k" V 8416 9000 50  0000 C CNN
-F 2 "" V 8230 9000 50  0001 C CNN
-F 3 "~" H 8300 9000 50  0001 C CNN
-	1    8300 9000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 6189F8F0
-P 8300 9400
-F 0 "R4" V 8507 9400 50  0000 C CNN
-F 1 "100k" V 8416 9400 50  0000 C CNN
-F 2 "" V 8230 9400 50  0001 C CNN
-F 3 "~" H 8300 9400 50  0001 C CNN
-	1    8300 9400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 618A04E8
-P 8300 9800
-F 0 "R5" V 8507 9800 50  0000 C CNN
-F 1 "100k" V 8416 9800 50  0000 C CNN
-F 2 "" V 8230 9800 50  0001 C CNN
-F 3 "~" H 8300 9800 50  0001 C CNN
-	1    8300 9800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8050 8250 8150 8250
-Wire Wire Line
-	8150 8600 8050 8600
-Wire Wire Line
-	8050 9000 8150 9000
-Wire Wire Line
-	8150 9400 8050 9400
-Wire Wire Line
-	8050 9800 8150 9800
 Wire Bus Line
 	6700 1250 6700 4850
 Wire Bus Line
@@ -205,43 +151,22 @@ Entry Bus Bus
 Wire Bus Line
 	13550 8750 13550 8450
 Connection ~ 13550 8450
-$Comp
-L Device:R R1
-U 1 1 6189C0E3
-P 8300 8250
-F 0 "R1" V 8507 8250 50  0000 C CNN
-F 1 "100k" V 8416 8250 50  0000 C CNN
-F 2 "" V 8230 8250 50  0001 C CNN
-F 3 "~" H 8300 8250 50  0001 C CNN
-	1    8300 8250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8450 8250 8700 8250
 Entry Wire Line
 	8700 8250 8800 8350
 Text Label 8500 8250 0    50   ~ 0
 PB0
-Wire Wire Line
-	8450 8600 8700 8600
 Entry Wire Line
 	8700 8600 8800 8700
 Text Label 8500 8600 0    50   ~ 0
 PD2
-Wire Wire Line
-	8450 9000 8700 9000
 Entry Wire Line
 	8700 9000 8800 9100
 Text Label 8500 9000 0    50   ~ 0
 PD3
-Wire Wire Line
-	8450 9400 8700 9400
 Entry Wire Line
 	8700 9400 8800 9500
 Text Label 8500 9400 0    50   ~ 0
 PD4
-Wire Wire Line
-	8450 9800 8700 9800
 Entry Wire Line
 	8700 9800 8800 9900
 Text Label 8500 9800 0    50   ~ 0
@@ -22422,6 +22347,16 @@ Entry Wire Line
 	11400 8550 11500 8650
 Wire Wire Line
 	11400 8550 11400 8400
+Wire Wire Line
+	8050 8250 8700 8250
+Wire Wire Line
+	8050 8600 8700 8600
+Wire Wire Line
+	8050 9000 8700 9000
+Wire Wire Line
+	8050 9400 8700 9400
+Wire Wire Line
+	8050 9800 8700 9800
 Wire Bus Line
 	9650 8650 12050 8650
 Wire Bus Line
