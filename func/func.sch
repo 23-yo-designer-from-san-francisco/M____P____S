@@ -13,6 +13,365 @@ Comment2 "Л.А. Беляев"
 Comment3 "В.Я. Хартов"
 Comment4 ""
 $EndDescr
+Text Notes 1250 5300 1    157  ~ 0
+ИСТОЧНИК
+Text Notes 15250 1400 3    157  ~ 0
+ПОЛУЧАТЕЛЬ
+Entry Wire Line
+	8050 4850 8150 4950
+Entry Wire Line
+	8050 5000 8150 5100
+Entry Wire Line
+	8050 5150 8150 5250
+Entry Wire Line
+	8050 5300 8150 5400
+Entry Wire Line
+	8050 5450 8150 5550
+Entry Wire Line
+	8050 5600 8150 5700
+Entry Wire Line
+	8050 5750 8150 5850
+Entry Wire Line
+	8050 5900 8150 6000
+Entry Wire Line
+	8050 6050 8150 6150
+Entry Wire Line
+	8050 6200 8150 6300
+Entry Wire Line
+	8050 6350 8150 6450
+Entry Wire Line
+	8050 6500 8150 6600
+Entry Wire Line
+	8050 6650 8150 6750
+Entry Wire Line
+	8050 6800 8150 6900
+Entry Wire Line
+	8050 6950 8150 7050
+Entry Wire Line
+	8050 7100 8150 7200
+Wire Bus Line
+	11800 8450 12050 8450
+Wire Bus Line
+	12050 8450 12050 8650
+Connection ~ 12050 8450
+Wire Bus Line
+	12050 8450 12250 8450
+Entry Wire Line
+	9550 4950 9650 5050
+Entry Wire Line
+	9550 5100 9650 5200
+Entry Wire Line
+	9550 5250 9650 5350
+Entry Wire Line
+	9550 5400 9650 5500
+$Comp
+L Switch:SW_MEC_5G SW2
+U 1 1 61893D8B
+P 7850 8600
+F 0 "SW2" H 7850 8885 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7850 8794 50  0000 C CNN
+F 2 "" H 7850 8800 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7850 8800 50  0001 C CNN
+	1    7850 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW3
+U 1 1 61895262
+P 7850 9000
+F 0 "SW3" H 7850 9285 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7850 9194 50  0000 C CNN
+F 2 "" H 7850 9200 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7850 9200 50  0001 C CNN
+	1    7850 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW4
+U 1 1 61895C37
+P 7850 9400
+F 0 "SW4" H 7850 9685 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7850 9594 50  0000 C CNN
+F 2 "" H 7850 9600 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7850 9600 50  0001 C CNN
+	1    7850 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW5
+U 1 1 61896541
+P 7850 9800
+F 0 "SW5" H 7850 10085 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7850 9994 50  0000 C CNN
+F 2 "" H 7850 10000 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7850 10000 50  0001 C CNN
+	1    7850 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW1
+U 1 1 61896E38
+P 7850 8250
+F 0 "SW1" H 7850 8535 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7850 8444 50  0000 C CNN
+F 2 "" H 7850 8450 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7850 8450 50  0001 C CNN
+	1    7850 8250
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	7550 8150 7650 8250
+Entry Wire Line
+	7550 8500 7650 8600
+Entry Wire Line
+	7550 8900 7650 9000
+Entry Wire Line
+	7550 9300 7650 9400
+Entry Wire Line
+	7550 9700 7650 9800
+$Comp
+L power:Earth #PWR?
+U 1 1 618999D5
+P 7550 9950
+F 0 "#PWR?" H 7550 9700 50  0001 C CNN
+F 1 "Earth" H 7550 9800 50  0001 C CNN
+F 2 "" H 7550 9950 50  0001 C CNN
+F 3 "~" H 7550 9950 50  0001 C CNN
+	1    7550 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6189D65D
+P 8300 8600
+F 0 "R1" V 8507 8600 50  0000 C CNN
+F 1 "100k" V 8416 8600 50  0000 C CNN
+F 2 "" V 8230 8600 50  0001 C CNN
+F 3 "~" H 8300 8600 50  0001 C CNN
+	1    8300 8600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6189EDB1
+P 8300 9000
+F 0 "R3" V 8507 9000 50  0000 C CNN
+F 1 "100k" V 8416 9000 50  0000 C CNN
+F 2 "" V 8230 9000 50  0001 C CNN
+F 3 "~" H 8300 9000 50  0001 C CNN
+	1    8300 9000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 6189F8F0
+P 8300 9400
+F 0 "R4" V 8507 9400 50  0000 C CNN
+F 1 "100k" V 8416 9400 50  0000 C CNN
+F 2 "" V 8230 9400 50  0001 C CNN
+F 3 "~" H 8300 9400 50  0001 C CNN
+	1    8300 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 618A04E8
+P 8300 9800
+F 0 "R5" V 8507 9800 50  0000 C CNN
+F 1 "100k" V 8416 9800 50  0000 C CNN
+F 2 "" V 8230 9800 50  0001 C CNN
+F 3 "~" H 8300 9800 50  0001 C CNN
+	1    8300 9800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 8250 8150 8250
+Wire Wire Line
+	8150 8600 8050 8600
+Wire Wire Line
+	8050 9000 8150 9000
+Wire Wire Line
+	8150 9400 8050 9400
+Wire Wire Line
+	8050 9800 8150 9800
+Wire Bus Line
+	6700 1250 6700 4850
+Wire Bus Line
+	6700 4850 8050 4850
+Wire Bus Line
+	13300 8450 13550 8450
+Entry Bus Bus
+	13550 8750 13650 8850
+Wire Bus Line
+	13550 8750 13550 8450
+Connection ~ 13550 8450
+$Comp
+L Device:R R1
+U 1 1 6189C0E3
+P 8300 8250
+F 0 "R1" V 8507 8250 50  0000 C CNN
+F 1 "100k" V 8416 8250 50  0000 C CNN
+F 2 "" V 8230 8250 50  0001 C CNN
+F 3 "~" H 8300 8250 50  0001 C CNN
+	1    8300 8250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8450 8250 8700 8250
+Entry Wire Line
+	8700 8250 8800 8350
+Text Label 8500 8250 0    50   ~ 0
+PB0
+Wire Wire Line
+	8450 8600 8700 8600
+Entry Wire Line
+	8700 8600 8800 8700
+Text Label 8500 8600 0    50   ~ 0
+PD2
+Wire Wire Line
+	8450 9000 8700 9000
+Entry Wire Line
+	8700 9000 8800 9100
+Text Label 8500 9000 0    50   ~ 0
+PD3
+Wire Wire Line
+	8450 9400 8700 9400
+Entry Wire Line
+	8700 9400 8800 9500
+Text Label 8500 9400 0    50   ~ 0
+PD4
+Wire Wire Line
+	8450 9800 8700 9800
+Entry Wire Line
+	8700 9800 8800 9900
+Text Label 8500 9800 0    50   ~ 0
+PD5
+$Comp
+L FUNG:EXP U?
+U 1 1 61886D8F
+P 8850 4550
+F 0 "U?" H 8850 4756 157 0001 C CNN
+F 1 "EXP" H 8850 4504 157 0001 C CNN
+F 2 "" H 8850 4550 157 0001 C CNN
+F 3 "" H 8850 4550 157 0001 C CNN
+	1    8850 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 8450 11250 8750
+Entry Wire Line
+	11250 8750 11350 8850
+Wire Bus Line
+	13550 8450 14350 8450
+Connection ~ 8800 8850
+$Comp
+L FUNG:PEVM U?
+U 1 1 618A29A2
+P 16000 8450
+F 0 "U?" H 16228 8321 50  0001 L CNN
+F 1 "PEVM" H 16228 8275 50  0001 L CNN
+F 2 "" H 16000 8450 50  0001 C CNN
+F 3 "" H 16000 8450 50  0001 C CNN
+	1    16000 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUNG:rs232 U?
+U 1 1 61899266
+P 14950 8450
+F 0 "U?" H 14950 8565 50  0001 C CNN
+F 1 "rs232" H 14950 8473 50  0001 C CNN
+F 2 "" H 14950 8450 50  0001 C CNN
+F 3 "" H 14950 8450 50  0001 C CNN
+	1    14950 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14400 8600 14100 8600
+Wire Wire Line
+	14100 8600 14100 8750
+Wire Wire Line
+	14400 8700 14200 8700
+Wire Wire Line
+	14200 8700 14200 8750
+Entry Wire Line
+	14100 8750 14200 8850
+Entry Wire Line
+	14200 8750 14300 8850
+Wire Wire Line
+	15500 8600 15650 8600
+Wire Wire Line
+	15650 8700 15500 8700
+$Comp
+L FUNG:prog U?
+U 1 1 618AFF44
+P 7850 10350
+F 0 "U?" H 8178 9996 50  0001 L CNN
+F 1 "prog" H 8178 9950 50  0001 L CNN
+F 2 "" H 7850 10350 50  0001 C CNN
+F 3 "" H 7850 10350 50  0001 C CNN
+	1    7850 10350
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	7150 7700 9550 7700
+Entry Bus Bus
+	9550 7700 9650 7800
+Entry Wire Line
+	7150 10400 7250 10500
+Entry Wire Line
+	7150 10500 7250 10600
+Entry Wire Line
+	7150 10600 7250 10700
+Entry Wire Line
+	7150 10700 7250 10800
+Entry Wire Line
+	7150 10850 7250 10950
+Entry Wire Line
+	7150 10950 7250 11050
+$Comp
+L FUNG:XRAM U?
+U 1 1 618B43EC
+P 9100 500
+F 0 "U?" H 9478 -79 50  0001 L CNN
+F 1 "XRAM" H 9478 -125 50  0001 L CNN
+F 2 "" H 9100 500 50  0001 C CNN
+F 3 "" H 9100 500 50  0001 C CNN
+	1    9100 500 
+	1    0    0    -1  
+$EndComp
+Entry Bus Bus
+	8350 550  8450 450 
+Entry Bus Bus
+	8350 600  8450 700 
+Entry Bus Bus
+	8350 700  8450 800 
+Entry Wire Line
+	8350 900  8450 1000
+Entry Wire Line
+	8350 1000 8450 1100
+Entry Wire Line
+	8350 1150 8450 1250
+Entry Wire Line
+	8350 1250 8450 1350
+Entry Wire Line
+	7900 8000 8000 8100
+Entry Wire Line
+	7900 8000 8000 8100
+Text Notes 14200 8600 0    50   ~ 0
+PD0
+Text Notes 14200 8700 0    50   ~ 0
+PD1
+Wire Bus Line
+	8350 3250 10100 3250
+Wire Bus Line
+	10100 3250 10100 8750
+Entry Bus Bus
+	10100 8750 10200 8850
+Entry Wire Line
+	8350 1350 8450 1450
+Entry Wire Line
+	8350 1450 8450 1550
 $Bitmap
 Pos 13050 4600
 Scale 1.000000
@@ -10230,8 +10589,42 @@ A0 4E 62 A7 D6 AD 5B FB FA F9 B1 F3 12 0C 28 14 8A AF 32 77 12 51 E8 A0 50 77 0F
 00 00 00 00 CB FE 07 AB 4B 58 1B C0 28 DB 57 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Entry Bus Bus
+	11750 650  11850 750 
+Entry Bus Bus
+	11650 450  11750 550 
+Wire Bus Line
+	11750 550  11750 650 
+Entry Bus Bus
+	13300 450  13400 550 
+Entry Bus Bus
+	13400 650  13500 750 
+Wire Bus Line
+	13400 550  13400 650 
+$Comp
+L Display_Character:LTS-6980HR AFF?
+U 1 1 618F02EA
+P 9550 4050
+F 0 "AFF?" H 9550 4717 50  0000 C CNN
+F 1 "LTS-6980HR" H 9550 4626 50  0000 C CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 9550 3450 50  0001 C CNN
+F 3 "http://datasheet.octopart.com/LTS-6960HR-Lite-On-datasheet-11803242.pdf" H 9550 4050 50  0001 C CNN
+	1    9550 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUNG:EXP_copy U?
+U 1 1 618FC27F
+P 8000 3100
+F 0 "U?" H 8000 2754 157 0001 C CNN
+F 1 "EXP_copy" H 8000 2754 157 0001 C CNN
+F 2 "" H 8000 3100 157 0001 C CNN
+F 3 "" H 8000 3100 157 0001 C CNN
+	1    8000 3100
+	1    0    0    -1  
+$EndComp
 $Bitmap
-Pos 4300 5950
+Pos 4250 6250
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 07 CA 00 00 0A CA 08 02 00 00 00 E6 4C 02 
@@ -21982,346 +22375,87 @@ E1 BD D7 00 C0 B2 0A 21 94 65 99 A6 E9 8B 29 3C 00 40 94 10 C2 64 32 F9 D8 68 AC
 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 1250 5300 1    157  ~ 0
-ИСТОЧНИК
-Text Notes 15500 5600 3    157  ~ 0
-ПОЛУЧАТЕЛЬ
-$Comp
-L FUNG:EXP U?
-U 1 1 61886D8F
-P 8850 4550
-F 0 "U?" H 8850 4756 157 0001 C CNN
-F 1 "EXP" H 8850 4504 157 0001 C CNN
-F 2 "" H 8850 4550 157 0001 C CNN
-F 3 "" H 8850 4550 157 0001 C CNN
-	1    8850 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1950 1550 1950 1350
-Wire Wire Line
-	2100 1550 2100 1350
-Entry Wire Line
-	1850 1250 1950 1350
-Entry Wire Line
-	2000 1250 2100 1350
-Entry Wire Line
-	2150 1250 2250 1350
-Entry Wire Line
-	2500 1250 2600 1350
-Entry Wire Line
-	2650 1250 2750 1350
-Entry Wire Line
-	2850 1250 2950 1350
-Entry Wire Line
-	3000 1250 3100 1350
-Wire Wire Line
-	2250 1350 2250 1550
-Wire Wire Line
-	2450 1550 2450 1350
-Wire Wire Line
-	2600 1350 2600 1550
-Wire Wire Line
-	2750 1350 2750 1550
-Wire Wire Line
-	2950 1350 2950 1600
-Wire Wire Line
-	3100 1350 3100 1550
-Entry Wire Line
-	2350 1250 2450 1350
-Wire Wire Line
-	4650 1550 4650 1350
-Wire Wire Line
-	4800 1550 4800 1350
-Wire Wire Line
-	4950 1550 4950 1350
-Wire Wire Line
-	5100 1550 5100 1350
-Wire Wire Line
-	5300 1550 5300 1350
-Wire Wire Line
-	5450 1550 5450 1350
-Wire Wire Line
-	5600 1550 5600 1350
-Wire Wire Line
-	5800 1550 5800 1350
-Entry Wire Line
-	4550 1250 4650 1350
-Entry Wire Line
-	4700 1250 4800 1350
-Entry Wire Line
-	4850 1250 4950 1350
-Entry Wire Line
-	5000 1250 5100 1350
-Entry Wire Line
-	5200 1250 5300 1350
-Entry Wire Line
-	5350 1250 5450 1350
-Entry Wire Line
-	5500 1250 5600 1350
-Entry Wire Line
-	5700 1250 5800 1350
-Entry Wire Line
-	8050 4850 8150 4950
-Entry Wire Line
-	8050 5000 8150 5100
-Entry Wire Line
-	8050 5150 8150 5250
-Entry Wire Line
-	8050 5300 8150 5400
-Entry Wire Line
-	8050 5450 8150 5550
-Entry Wire Line
-	8050 5600 8150 5700
-Entry Wire Line
-	8050 5750 8150 5850
-Entry Wire Line
-	8050 5900 8150 6000
-Entry Wire Line
-	8050 6050 8150 6150
-Entry Wire Line
-	8050 6200 8150 6300
-Entry Wire Line
-	8050 6350 8150 6450
-Entry Wire Line
-	8050 6500 8150 6600
-Entry Wire Line
-	8050 6650 8150 6750
-Entry Wire Line
-	8050 6800 8150 6900
-Entry Wire Line
-	8050 6950 8150 7050
-Entry Wire Line
-	8050 7100 8150 7200
-Wire Bus Line
-	11800 8450 12050 8450
-Wire Bus Line
-	12050 8450 12050 8650
-Wire Bus Line
-	12050 8650 9650 8650
-Connection ~ 12050 8450
-Wire Bus Line
-	12050 8450 12250 8450
-Entry Wire Line
-	9550 4950 9650 5050
-Entry Wire Line
-	9550 5100 9650 5200
-Entry Wire Line
-	9550 5250 9650 5350
-Entry Wire Line
-	9550 5400 9650 5500
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 61893D8B
-P 7850 8600
-F 0 "SW?" H 7850 8885 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7850 8794 50  0000 C CNN
-F 2 "" H 7850 8800 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7850 8800 50  0001 C CNN
-	1    7850 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 61895262
-P 7850 9000
-F 0 "SW?" H 7850 9285 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7850 9194 50  0000 C CNN
-F 2 "" H 7850 9200 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7850 9200 50  0001 C CNN
-	1    7850 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 61895C37
-P 7850 9400
-F 0 "SW?" H 7850 9685 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7850 9594 50  0000 C CNN
-F 2 "" H 7850 9600 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7850 9600 50  0001 C CNN
-	1    7850 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 61896541
-P 7850 9800
-F 0 "SW?" H 7850 10085 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7850 9994 50  0000 C CNN
-F 2 "" H 7850 10000 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7850 10000 50  0001 C CNN
-	1    7850 9800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 61896E38
-P 7850 8250
-F 0 "SW?" H 7850 8535 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7850 8444 50  0000 C CNN
-F 2 "" H 7850 8450 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7850 8450 50  0001 C CNN
-	1    7850 8250
-	1    0    0    -1  
-$EndComp
-Entry Wire Line
-	7550 8150 7650 8250
-Entry Wire Line
-	7550 8500 7650 8600
-Entry Wire Line
-	7550 8900 7650 9000
-Entry Wire Line
-	7550 9300 7650 9400
-Entry Wire Line
-	7550 9700 7650 9800
-$Comp
-L power:Earth #PWR?
-U 1 1 618999D5
-P 7550 9950
-F 0 "#PWR?" H 7550 9700 50  0001 C CNN
-F 1 "Earth" H 7550 9800 50  0001 C CNN
-F 2 "" H 7550 9950 50  0001 C CNN
-F 3 "~" H 7550 9950 50  0001 C CNN
-	1    7550 9950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 6189D65D
-P 8300 8600
-F 0 "R1" V 8507 8600 50  0000 C CNN
-F 1 "100k" V 8416 8600 50  0000 C CNN
-F 2 "" V 8230 8600 50  0001 C CNN
-F 3 "~" H 8300 8600 50  0001 C CNN
-	1    8300 8600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 6189EDB1
-P 8300 9000
-F 0 "R3" V 8507 9000 50  0000 C CNN
-F 1 "100k" V 8416 9000 50  0000 C CNN
-F 2 "" V 8230 9000 50  0001 C CNN
-F 3 "~" H 8300 9000 50  0001 C CNN
-	1    8300 9000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 6189F8F0
-P 8300 9400
-F 0 "R4" V 8507 9400 50  0000 C CNN
-F 1 "100k" V 8416 9400 50  0000 C CNN
-F 2 "" V 8230 9400 50  0001 C CNN
-F 3 "~" H 8300 9400 50  0001 C CNN
-	1    8300 9400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 618A04E8
-P 8300 9800
-F 0 "R5" V 8507 9800 50  0000 C CNN
-F 1 "100k" V 8416 9800 50  0000 C CNN
-F 2 "" V 8230 9800 50  0001 C CNN
-F 3 "~" H 8300 9800 50  0001 C CNN
-	1    8300 9800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8050 8250 8150 8250
-Wire Wire Line
-	8150 8600 8050 8600
-Wire Wire Line
-	8050 9000 8150 9000
-Wire Wire Line
-	8150 9400 8050 9400
-Wire Wire Line
-	8050 9800 8150 9800
-Wire Bus Line
-	7550 1250 7550 4700
-Wire Bus Line
-	7550 4700 8050 4700
-$Comp
-L FUNG:PEVM U?
-U 1 1 618AE473
-P 14400 8700
-F 0 "U?" H 14628 8596 50  0000 L CNN
-F 1 "PEVM" H 14628 8505 50  0000 L CNN
-F 2 "" H 14400 8700 50  0001 C CNN
-F 3 "" H 14400 8700 50  0001 C CNN
-	1    14400 8700
-	1    0    0    -1  
-$EndComp
-Wire Bus Line
-	13300 8450 13550 8450
 Entry Bus Bus
-	13550 8750 13650 8850
+	2000 1250 2100 1350
+Entry Bus Bus
+	2100 1700 2200 1800
 Wire Bus Line
-	13550 8750 13550 8450
-Connection ~ 13550 8450
+	2100 1350 2100 1700
+Entry Bus Bus
+	4550 1250 4650 1350
+Entry Bus Bus
+	4650 1750 4750 1850
 Wire Bus Line
-	13550 8450 13900 8450
-Text Label 13800 8850 0    50   ~ 0
-PD1
-Wire Wire Line
-	13650 8850 14050 8850
+	4650 1350 4650 1750
+Entry Wire Line
+	7000 3750 7100 3850
+Entry Wire Line
+	7000 3900 7100 4000
+Entry Wire Line
+	7000 4050 7100 4150
+Entry Wire Line
+	7000 4200 7100 4300
 Wire Bus Line
-	13650 8850 8800 8850
-Connection ~ 8800 8850
-$Comp
-L Device:R R1
-U 1 1 6189C0E3
-P 8300 8250
-F 0 "R1" V 8507 8250 50  0000 C CNN
-F 1 "100k" V 8416 8250 50  0000 C CNN
-F 2 "" V 8230 8250 50  0001 C CNN
-F 3 "~" H 8300 8250 50  0001 C CNN
-	1    8300 8250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8450 8250 8700 8250
+	7000 4700 9650 4700
 Entry Wire Line
-	8700 8250 8800 8350
-Text Label 8500 8250 0    50   ~ 0
-PD0
-Wire Wire Line
-	8450 8600 8700 8600
+	8950 3550 9050 3650
 Entry Wire Line
-	8700 8600 8800 8700
-Text Label 8500 8600 0    50   ~ 0
-PD2
-Wire Wire Line
-	8450 9000 8700 9000
+	8950 3650 9050 3750
 Entry Wire Line
-	8700 9000 8800 9100
-Text Label 8500 9000 0    50   ~ 0
-PD3
-Wire Wire Line
-	8450 9400 8700 9400
+	8950 3750 9050 3850
 Entry Wire Line
-	8700 9400 8800 9500
-Text Label 8500 9400 0    50   ~ 0
-PD4
-Wire Wire Line
-	8450 9800 8700 9800
+	8950 3850 9050 3950
 Entry Wire Line
-	8700 9800 8800 9900
-Text Label 8500 9800 0    50   ~ 0
-PD5
+	8950 3950 9050 4050
+Entry Wire Line
+	8950 4050 9050 4150
+Entry Wire Line
+	8950 4150 9050 4250
 Wire Bus Line
-	8800 8350 8800 8850
+	8900 4050 8950 4050
 Wire Bus Line
-	8800 8850 8800 9900
+	8950 4050 8950 4150
+Connection ~ 8950 4050
+Text Notes 7050 4300 0    50   ~ 0
+PB1
+Entry Wire Line
+	11400 8550 11500 8650
+Wire Wire Line
+	11400 8550 11400 8400
+Wire Bus Line
+	9650 8650 12050 8650
+Wire Bus Line
+	4600 1850 5750 1850
+Wire Bus Line
+	13350 750  14350 750 
+Wire Bus Line
+	11000 750  12050 750 
+Wire Bus Line
+	8350 1350 8350 3250
+Wire Bus Line
+	1900 1800 3050 1800
+Wire Bus Line
+	8800 8150 8800 8850
+Wire Bus Line
+	8450 450  13350 450 
+Wire Bus Line
+	1850 1250 6700 1250
+Wire Bus Line
+	8800 8850 8800 10000
+Wire Bus Line
+	8800 8850 14300 8850
 Wire Wire Line
 	7550 8150 7550 9950
 Wire Bus Line
-	9650 4800 9650 8650
+	7000 3750 7000 4700
 Wire Bus Line
-	8050 4700 8050 7250
+	8950 3550 8950 4050
 Wire Bus Line
-	1850 1250 7550 1250
+	9650 4700 9650 8650
+Wire Bus Line
+	7150 7700 7150 10950
+Wire Bus Line
+	8350 550  8350 1300
+Wire Bus Line
+	8050 4850 8050 7150
 $EndSCHEMATC
