@@ -84,21 +84,6 @@ X ~ ~CS -900 -1050 354 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# FUNG_PEVM
-#
-DEF FUNG_PEVM U 0 40 Y Y 1 F N
-F0 "U" 0 0 50 H V C CNN
-F1 "FUNG_PEVM" 0 0 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 0 0 -150 79 0 0 0 ПЭВМ Normal 0 C C
-S -200 -50 200 -300 0 1 0 N
-X ~ RXD -350 -150 150 R 50 50 1 1 I
-X ~ TXD -350 -250 150 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # FUNG_XRAM
 #
 DEF FUNG_XRAM U 0 40 Y Y 1 F N
@@ -131,9 +116,8 @@ F1 "FUNG_prog" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-T 0 -50 -500 47 0 0 0 IDC-06MS Normal 0 C C
-T 0 -50 -400 47 0 0 0 программатора Normal 0 C C
-T 0 -50 -300 47 0 0 0 "Разъем для" Normal 0 C C
+T 0 -50 -450 47 0 0 0 программатора Normal 0 C C
+T 0 -50 -350 47 0 0 0 "Разъем для" Normal 0 C C
 S -450 -50 300 -750 0 0 0 N
 X ~ GND -600 -700 150 R 50 50 1 1 I
 X ~ MISO -600 -150 150 R 50 50 1 1 I

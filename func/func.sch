@@ -50,12 +50,7 @@ Entry Wire Line
 Entry Wire Line
 	8050 7100 8150 7200
 Wire Bus Line
-	11800 8450 12050 8450
-Wire Bus Line
 	12050 8450 12050 8650
-Connection ~ 12050 8450
-Wire Bus Line
-	12050 8450 12250 8450
 Entry Wire Line
 	9550 4950 9650 5050
 Entry Wire Line
@@ -144,13 +139,10 @@ Wire Bus Line
 	6700 1250 6700 4850
 Wire Bus Line
 	6700 4850 8050 4850
-Wire Bus Line
-	13300 8450 13550 8450
 Entry Bus Bus
 	13550 8750 13650 8850
 Wire Bus Line
 	13550 8750 13550 8450
-Connection ~ 13550 8450
 Entry Wire Line
 	8700 8250 8800 8350
 Text Label 8500 8250 0    50   ~ 0
@@ -186,20 +178,6 @@ Wire Wire Line
 	11250 8450 11250 8750
 Entry Wire Line
 	11250 8750 11350 8850
-Wire Bus Line
-	13550 8450 14350 8450
-Connection ~ 8800 8850
-$Comp
-L FUNG:PEVM U?
-U 1 1 618A29A2
-P 16000 8450
-F 0 "U?" H 16228 8321 50  0001 L CNN
-F 1 "PEVM" H 16228 8275 50  0001 L CNN
-F 2 "" H 16000 8450 50  0001 C CNN
-F 3 "" H 16000 8450 50  0001 C CNN
-	1    16000 8450
-	1    0    0    -1  
-$EndComp
 $Comp
 L FUNG:rs232 U?
 U 1 1 61899266
@@ -22338,9 +22316,6 @@ Entry Wire Line
 	8950 4150 9050 4250
 Wire Bus Line
 	8900 4050 8950 4050
-Wire Bus Line
-	8950 4050 8950 4150
-Connection ~ 8950 4050
 Text Notes 7050 4300 0    50   ~ 0
 PB1
 Entry Wire Line
@@ -22357,6 +22332,16 @@ Wire Wire Line
 	8050 9400 8700 9400
 Wire Wire Line
 	8050 9800 8700 9800
+Text Notes 15700 8700 0    50   ~ 0
+К ПЭВМ
+Wire Bus Line
+	8950 4050 8950 4150
+Wire Bus Line
+	13300 8450 14350 8450
+Wire Bus Line
+	11800 8450 12250 8450
+Entry Bus Bus
+	8800 8950 8900 8850
 Wire Bus Line
 	9650 8650 12050 8650
 Wire Bus Line
@@ -22370,15 +22355,9 @@ Wire Bus Line
 Wire Bus Line
 	1900 1800 3050 1800
 Wire Bus Line
-	8800 8150 8800 8850
-Wire Bus Line
 	8450 450  13350 450 
 Wire Bus Line
 	1850 1250 6700 1250
-Wire Bus Line
-	8800 8850 8800 10000
-Wire Bus Line
-	8800 8850 14300 8850
 Wire Wire Line
 	7550 8150 7550 9950
 Wire Bus Line
@@ -22386,7 +22365,11 @@ Wire Bus Line
 Wire Bus Line
 	8950 3550 8950 4050
 Wire Bus Line
+	8900 8850 14300 8850
+Wire Bus Line
 	9650 4700 9650 8650
+Wire Bus Line
+	8800 8150 8800 10000
 Wire Bus Line
 	7150 7700 7150 10950
 Wire Bus Line
