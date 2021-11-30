@@ -117,93 +117,93 @@ Entry Wire Line
 $Comp
 L Switch:SW_MEC_5G SW1
 U 1 1 618A64A7
-P 9850 6050
-F 0 "SW1" H 9850 6335 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9850 6244 50  0000 C CNN
-F 2 "" H 9850 6250 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9850 6250 50  0001 C CNN
-	1    9850 6050
+P 7600 8950
+F 0 "SW1" H 7600 9235 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7600 9144 50  0000 C CNN
+F 2 "" H 7600 9150 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7600 9150 50  0001 C CNN
+	1    7600 8950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR?
 U 1 1 618ACA20
-P 9550 7600
-F 0 "#PWR?" H 9550 7350 50  0001 C CNN
-F 1 "Earth" H 9550 7450 50  0001 C CNN
-F 2 "" H 9550 7600 50  0001 C CNN
-F 3 "~" H 9550 7600 50  0001 C CNN
-	1    9550 7600
+P 7300 10500
+F 0 "#PWR?" H 7300 10250 50  0001 C CNN
+F 1 "Earth" H 7300 10350 50  0001 C CNN
+F 2 "" H 7300 10500 50  0001 C CNN
+F 3 "~" H 7300 10500 50  0001 C CNN
+	1    7300 10500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_MEC_5G SW2
 U 1 1 618AE5B4
-P 9850 6400
-F 0 "SW2" H 9850 6685 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9850 6594 50  0000 C CNN
-F 2 "" H 9850 6600 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9850 6600 50  0001 C CNN
-	1    9850 6400
+P 7600 9300
+F 0 "SW2" H 7600 9585 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7600 9494 50  0000 C CNN
+F 2 "" H 7600 9500 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7600 9500 50  0001 C CNN
+	1    7600 9300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_MEC_5G SW3
 U 1 1 618AFC40
-P 9850 6750
-F 0 "SW3" H 9850 7035 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9850 6944 50  0000 C CNN
-F 2 "" H 9850 6950 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9850 6950 50  0001 C CNN
-	1    9850 6750
+P 7600 9650
+F 0 "SW3" H 7600 9935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7600 9844 50  0000 C CNN
+F 2 "" H 7600 9850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7600 9850 50  0001 C CNN
+	1    7600 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_MEC_5G SW4
 U 1 1 618B119B
-P 9850 7100
-F 0 "SW4" H 9850 7385 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9850 7294 50  0000 C CNN
-F 2 "" H 9850 7300 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9850 7300 50  0001 C CNN
-	1    9850 7100
+P 7600 10000
+F 0 "SW4" H 7600 10285 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7600 10194 50  0000 C CNN
+F 2 "" H 7600 10200 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7600 10200 50  0001 C CNN
+	1    7600 10000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_MEC_5G SW5
 U 1 1 618B1C38
-P 9850 7450
-F 0 "SW5" H 9850 7735 50  0000 C CNN
-F 1 "SW_MEC_5G" H 9850 7644 50  0000 C CNN
-F 2 "" H 9850 7650 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 9850 7650 50  0001 C CNN
-	1    9850 7450
+P 7600 10350
+F 0 "SW5" H 7600 10635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7600 10544 50  0000 C CNN
+F 2 "" H 7600 10550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7600 10550 50  0001 C CNN
+	1    7600 10350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 6050 9550 6050
+	7400 8950 7300 8950
 Wire Wire Line
-	9550 6050 9550 6400
+	7300 8950 7300 9300
 Wire Wire Line
-	9650 6400 9550 6400
-Connection ~ 9550 6400
+	7400 9300 7300 9300
+Connection ~ 7300 9300
 Wire Wire Line
-	9550 6400 9550 6750
+	7300 9300 7300 9650
 Wire Wire Line
-	9650 6750 9550 6750
-Connection ~ 9550 6750
+	7400 9650 7300 9650
+Connection ~ 7300 9650
 Wire Wire Line
-	9550 6750 9550 7100
+	7300 9650 7300 10000
 Wire Wire Line
-	9650 7100 9550 7100
-Connection ~ 9550 7100
+	7400 10000 7300 10000
+Connection ~ 7300 10000
 Wire Wire Line
-	9550 7100 9550 7450
+	7300 10000 7300 10350
 Wire Wire Line
-	9650 7450 9550 7450
-Connection ~ 9550 7450
+	7400 10350 7300 10350
+Connection ~ 7300 10350
 Wire Wire Line
-	9550 7450 9550 7600
+	7300 10350 7300 10500
 $Comp
 L 74xx:74LS373 U?
 U 1 1 618B9D34
@@ -259,8 +259,6 @@ F 3 "~" H 12950 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12950 1750 11300 1750
-Wire Wire Line
 	12950 1950 12750 1950
 Wire Wire Line
 	12750 1950 12750 5700
@@ -277,16 +275,8 @@ F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 14700 7750 50  0001 C CNN
 	1    14700 7650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8700 5600 11300 5600
-Wire Wire Line
-	8700 5600 8700 8350
-Wire Wire Line
-	8850 8150 8850 5700
-Wire Wire Line
-	8850 5700 11300 5700
 $Comp
-L custom:6264 U?
+L prinsip-rescue:6264-custom U?
 U 1 1 6189600C
 P 15300 1700
 F 0 "U?" H 15300 1815 50  0000 C CNN
@@ -317,39 +307,7 @@ Entry Wire Line
 Entry Wire Line
 	20150 -600 20250 -500
 Wire Wire Line
-	10050 6050 10550 6050
-Wire Wire Line
-	10550 6050 10550 3800
-Wire Wire Line
 	10550 3800 11300 3800
-Wire Wire Line
-	11300 5800 10650 5800
-Wire Wire Line
-	10650 5800 10650 6400
-Wire Wire Line
-	10050 6400 10650 6400
-Wire Wire Line
-	10750 6750 10750 5900
-Wire Wire Line
-	10750 5900 11300 5900
-Wire Wire Line
-	10050 6750 10750 6750
-Wire Wire Line
-	11300 6000 10850 6000
-Wire Wire Line
-	10850 6000 10850 7100
-Wire Wire Line
-	10050 7100 10850 7100
-Wire Wire Line
-	10950 7450 10950 6100
-Wire Wire Line
-	10950 6100 11300 6100
-Wire Wire Line
-	10050 7450 10950 7450
-Wire Wire Line
-	8850 8150 13900 8150
-Wire Wire Line
-	8700 8350 13900 8350
 Wire Wire Line
 	14800 2150 14150 2150
 Wire Wire Line
@@ -385,24 +343,6 @@ F 3 "~" H 14800 2050 50  0001 C CNN
 $EndComp
 Wire Bus Line
 	15800 1850 15800 400 
-Wire Bus Line
-	15800 400  12200 400 
-Entry Wire Line
-	12200 950  12300 1050
-Entry Wire Line
-	12200 1050 12300 1150
-Entry Wire Line
-	12200 1150 12300 1250
-Entry Wire Line
-	12200 1250 12300 1350
-Entry Wire Line
-	12200 1350 12300 1450
-Entry Wire Line
-	12200 1450 12300 1550
-Entry Wire Line
-	12200 1550 12300 1650
-Entry Wire Line
-	12200 1650 12300 1750
 Entry Wire Line
 	11200 4600 11300 4700
 Entry Wire Line
@@ -419,38 +359,13 @@ Entry Wire Line
 	11200 5200 11300 5300
 Entry Wire Line
 	11200 5300 11300 5400
-Text GLabel 11100 4900 1    50   Input ~ 0
-XRAM_ADDR
 Entry Bus Bus
 	11100 4900 11200 5000
-Text GLabel 14500 1750 1    50   Input ~ 0
-XRAM_ADDR
-Entry Bus Bus
-	14500 1750 14600 1850
-$Comp
-L Display_Character:HDSP-7401 U?
-U 1 1 618E7630
-P 8100 6600
-F 0 "U?" H 8100 7267 50  0000 C CNN
-F 1 "HDSP-7401" H 8100 7176 50  0000 C CNN
-F 2 "Display_7Segment:HDSP-7401" H 8100 6050 50  0001 C CNN
-F 3 "https://docs.broadcom.com/docs/AV02-2553EN" H 8100 6600 50  0001 C CNN
-	1    8100 6600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11200 6650 11200 6200
 Wire Wire Line
 	13200 6750 13200 5700
-Wire Notes Line
-	7150 7800 10400 7800
-Wire Notes Line
-	10400 7800 10400 5350
-Wire Notes Line
-	10400 5350 7150 5350
-Wire Notes Line
-	7150 5350 7150 7800
-Text Notes 7400 5550 0    118  ~ 0
+Text Notes 4500 8400 0    118  ~ 0
 Пульт оператора
 Wire Notes Line
 	3050 7000 5350 7000
@@ -458,24 +373,223 @@ Wire Notes Line
 	5350 7000 5350 2250
 Wire Notes Line
 	5350 2250 3050 2250
-Wire Bus Line
-	14050 1850 14800 1850
+Wire Notes Line
+	3050 2250 3050 7000
+Text Notes 3250 2150 0    197  ~ 0
+Источник
 Wire Wire Line
-	11300 1650 12950 1650
+	11300 1750 12950 1750
 Wire Wire Line
-	11300 1550 12950 1550
-Wire Wire Line
-	11300 1450 12950 1450
-Wire Wire Line
-	11300 1350 12950 1350
-Wire Wire Line
-	11300 1250 12950 1250
+	11300 1050 12950 1050
 Wire Wire Line
 	11300 1150 12950 1150
 Wire Wire Line
-	11300 1050 12950 1050
+	11300 1250 12950 1250
+Wire Wire Line
+	11300 1350 12950 1350
+Wire Wire Line
+	11300 1450 12950 1450
+Wire Wire Line
+	11300 1550 12950 1550
+Wire Wire Line
+	11300 1650 12950 1650
+Wire Bus Line
+	11200 400  15800 400 
+Wire Wire Line
+	11300 4000 11000 4000
+Wire Wire Line
+	11000 4000 11000 2300
+Wire Wire Line
+	11000 2300 5600 2300
+Wire Wire Line
+	5600 2300 5600 4150
+Wire Wire Line
+	5600 4150 4900 4150
+Wire Wire Line
+	11300 4100 11250 4100
+Wire Wire Line
+	11250 4100 11250 3650
+Wire Wire Line
+	11250 3650 10850 3650
+Wire Wire Line
+	10850 3650 10850 2150
+Wire Wire Line
+	10850 2150 5500 2150
+Wire Wire Line
+	5500 2150 5500 4050
+Wire Wire Line
+	5500 4050 4900 4050
+Wire Wire Line
+	12500 5800 12750 5800
+Wire Wire Line
+	12750 5800 12750 7900
+Wire Wire Line
+	12750 7900 5650 7900
+Wire Wire Line
+	5650 7900 5650 4250
+Wire Wire Line
+	5650 4250 4900 4250
+Wire Bus Line
+	11100 4900 11100 7200
+Wire Bus Line
+	11100 7200 13550 7200
+Wire Bus Line
+	13550 7200 13550 2700
+Wire Bus Line
+	13550 2700 14000 2700
+Wire Bus Line
+	14000 2700 14000 2000
+Wire Bus Line
+	14000 2000 14500 2000
+Entry Bus Bus
+	14350 1850 14450 1950
+Entry Bus Bus
+	14400 1900 14500 2000
+$Comp
+L Display_Character:CA56-12CGKWA U?
+U 1 1 61AA78F0
+P 5400 9900
+F 0 "U?" H 5400 10567 50  0000 C CNN
+F 1 "CA56-12CGKWA" H 5400 10476 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 5400 9300 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12CGKWA(Ver.9A).pdf" H 4970 9930 50  0001 C CNN
+	1    5400 9900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 9600 4300 9600
+Wire Wire Line
+	4300 9700 4050 9700
+Wire Wire Line
+	4050 9800 4300 9800
+Wire Wire Line
+	4300 9900 4050 9900
+Wire Wire Line
+	4050 10000 4300 10000
+Wire Wire Line
+	4300 10100 4050 10100
+Wire Wire Line
+	4050 10200 4300 10200
+Wire Wire Line
+	4300 10300 4050 10300
+Wire Wire Line
+	4050 9200 6850 9200
+Wire Wire Line
+	6850 9200 6850 10300
+Wire Wire Line
+	6850 10300 6500 10300
+Wire Wire Line
+	6500 10200 6750 10200
+Wire Wire Line
+	6750 10200 6750 9100
+Wire Wire Line
+	6750 9100 4050 9100
+Wire Wire Line
+	4050 9000 6650 9000
+Wire Wire Line
+	6650 9000 6650 10100
+Wire Wire Line
+	6650 10100 6500 10100
+Wire Wire Line
+	6500 10000 6550 10000
+Wire Wire Line
+	6550 10000 6550 8900
+Wire Wire Line
+	6550 8900 4050 8900
+Wire Wire Line
+	1950 1450 1950 8900
+$Comp
+L TM1637:TM1637 U?
+U 1 1 61AB82C7
+P 3350 9600
+F 0 "U?" H 3350 10767 50  0000 C CNN
+F 1 "TM1637" H 3350 10676 50  0000 C CNN
+F 2 "DIP778W43P254L2612H431Q20N" H 3350 9600 50  0001 L BNN
+F 3 "" H 3350 9600 50  0001 L BNN
+F 4 "Titan Micro Electronics" H 3350 9600 50  0001 L BNN "MANUFACTURER"
+F 5 "4.31 mm" H 3350 9600 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "IPC 7351B" H 3350 9600 50  0001 L BNN "STANDARD"
+F 7 "v2.5" H 3350 9600 50  0001 L BNN "PARTREV"
+	1    3350 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 8900 2650 8900
+Wire Wire Line
+	2650 9100 1750 9100
+Wire Wire Line
+	1750 9100 1750 1300
+Wire Wire Line
+	1750 1300 10550 1300
 Wire Notes Line
-	3050 2250 3050 7000
+	2350 8200 2350 11100
+Wire Notes Line
+	8050 11100 8050 8200
+Wire Notes Line
+	2350 11100 8050 11100
+Wire Notes Line
+	2350 8200 8050 8200
+Wire Wire Line
+	11300 5600 8350 5600
+Wire Wire Line
+	8350 5600 8350 8950
+Wire Wire Line
+	8350 8950 7800 8950
+Wire Wire Line
+	11300 5800 8450 5800
+Wire Wire Line
+	8450 5800 8450 9300
+Wire Wire Line
+	8450 9300 7800 9300
+Wire Wire Line
+	11300 5900 8550 5900
+Wire Wire Line
+	8550 5900 8550 9650
+Wire Wire Line
+	8550 9650 7800 9650
+Wire Wire Line
+	11300 6000 8650 6000
+Wire Wire Line
+	8650 6000 8650 10000
+Wire Wire Line
+	8650 10000 7800 10000
+Wire Wire Line
+	11300 6100 8750 6100
+Wire Wire Line
+	8750 6100 8750 10350
+Wire Wire Line
+	8750 10350 7800 10350
+Wire Wire Line
+	11300 5700 10700 5700
+Wire Wire Line
+	10700 5700 10700 7750
+Wire Wire Line
+	10700 7750 13900 7750
+Wire Wire Line
+	3550 3050 3700 3050
+Wire Wire Line
+	3550 2950 3550 3050
+$Comp
+L power:VCC #PWR?
+U 1 1 61B812C7
+P 3550 2950
+F 0 "#PWR?" H 3550 2800 50  0001 C CNN
+F 1 "VCC" H 3565 3123 50  0000 C CNN
+F 2 "" H 3550 2950 50  0001 C CNN
+F 3 "" H 3550 2950 50  0001 C CNN
+	1    3550 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 3800 10550 1300
+Wire Wire Line
+	11300 3900 10450 3900
+Wire Wire Line
+	10450 3900 10450 1450
+Wire Wire Line
+	10450 1450 1950 1450
+Wire Bus Line
+	14050 1850 14800 1850
 Wire Bus Line
 	11200 4100 11200 4400
 Wire Bus Line
@@ -483,15 +597,11 @@ Wire Bus Line
 Wire Bus Line
 	11200 4600 11200 5300
 Wire Bus Line
-	12200 400  12200 1650
-Wire Bus Line
 	14050 1000 14050 1850
 Wire Bus Line
 	7500 3850 7500 4750
 Wire Bus Line
 	5000 4750 5000 5650
 Wire Bus Line
-	11200 950  11200 3500
-Text Notes 3250 2150 0    197  ~ 0
-Источник
+	11200 400  11200 3500
 $EndSCHEMATC

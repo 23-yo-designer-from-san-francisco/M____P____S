@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 6264-custom
+#
+DEF 6264-custom U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "6264-custom" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -150 50 0 0 0 6264 Normal 0 C C
+S -200 -50 200 -650 0 1 0 N
+X ~ A[0..12] -500 -150 295 R 50 50 1 1 I
+X ~ CS -500 -350 295 R 50 50 1 1 I
+X ~ D[0..7] 500 -150 295 L 50 50 1 1 O
+X ~ ~CE -500 -250 295 R 50 50 1 1 I
+X ~ ~OE -500 -550 295 R 50 50 1 1 I
+X ~ ~WE -500 -450 295 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
