@@ -9,8 +9,8 @@ F1 "CPU" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-T 0 0 -200 47 0 0 0 ЦПУ Normal 0 C C
-S -250 -50 250 -350 0 1 0 N
+T 0 0 -450 79 0 0 0 ЦПУ Normal 0 C C
+S -250 -50 250 -900 0 1 0 N
 ENDDRAW
 ENDDEF
 #
@@ -148,7 +148,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 0 -200 47 0 0 0 "Порт А" Normal 0 C C
-S -350 -50 350 -350 0 1 0 N
+S -450 -50 450 -350 0 1 0 N
 ENDDRAW
 ENDDEF
 #
@@ -161,7 +161,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 0 -200 47 0 0 0 "Порт B" Normal 0 C C
-S -350 -50 350 -350 0 1 0 N
+S -450 -50 450 -350 0 1 0 N
 ENDDRAW
 ENDDEF
 #
@@ -174,7 +174,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 0 -200 47 0 0 0 "Порт C" Normal 0 C C
-S -350 -50 350 -350 0 1 0 N
+S -450 -50 450 -350 0 1 0 N
 ENDDRAW
 ENDDEF
 #
@@ -187,7 +187,7 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 0 -200 47 0 0 0 "Порт D" Normal 0 C C
-S -350 -50 350 -350 0 1 0 N
+S -450 -50 450 -350 0 1 0 N
 ENDDRAW
 ENDDEF
 #
@@ -278,6 +278,21 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 0 -200 47 0 0 0 Осциллятор Normal 0 C C
 S -250 -50 250 -350 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# XTAL_int
+#
+DEF XTAL_int U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "XTAL_int" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -150 47 0 0 0 Внутренний Normal 0 C C
+T 0 0 -350 47 0 0 0 Осциллятор Normal 0 C C
+T 0 0 -250 47 0 1 1 Калиброванный Normal 0 C C
+S -300 -50 300 -450 0 1 0 N
 ENDDRAW
 ENDDEF
 #
