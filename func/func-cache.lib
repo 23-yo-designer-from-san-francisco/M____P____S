@@ -472,6 +472,21 @@ X B 4 200 0 100 L 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
+# kur_func_Driver_TM1637
+#
+DEF kur_func_Driver_TM1637 U 0 40 Y Y 1 F N
+F0 "U" -350 900 50 H V C CNN
+F1 "kur_func_Driver_TM1637" -100 900 50 H V C CNN
+F2 "" -350 900 50 H I C CNN
+F3 "" -350 900 50 H I C CNN
+DRAW
+T 0 0 200 118 0 0 0 Драйвер Normal 0 C C
+T 0 0 -150 118 0 1 1 TM1637 Normal 0 C C
+S -650 600 600 -550 0 1 0 N
+X ~ ~ 700 50 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
 # power_Earth
 #
 DEF power_Earth #PWR 0 0 Y Y 1 F P
@@ -485,6 +500,21 @@ P 2 0 1 0 -5 -100 5 -100 N
 P 2 0 1 0 0 -50 0 0 N
 P 2 0 1 0 50 -50 -50 -50 N
 X Earth 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

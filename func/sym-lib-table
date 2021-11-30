@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name FUNG)(type Legacy)(uri ${KIPRJMOD}/FUNG.lib)(options "")(descr ""))
+  (lib (name kur_func)(type Legacy)(uri ${KIPRJMOD}/kur_func.lib)(options "")(descr ""))
 )
