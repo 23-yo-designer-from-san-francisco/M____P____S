@@ -318,30 +318,6 @@ S -250 -50 250 -350 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# FUNG_XRAM
-#
-DEF FUNG_XRAM U 0 40 Y Y 1 F N
-F0 "U" 0 0 50 H V C CNN
-F1 "FUNG_XRAM" 0 0 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 0 0 -550 47 0 0 0 внешней Normal 0 C C
-T 0 0 -450 47 0 0 0 Модуль Normal 0 C C
-T 0 0 -650 47 0 0 0 оперативной Normal 0 C C
-T 0 0 -750 47 0 0 0 памяти Normal 0 C C
-S -350 -100 350 -1150 0 0 0 N
-X ~ A[0..7] -650 -300 295 R 50 50 1 1 I
-X ~ CS -650 -850 295 R 50 50 1 1 I
-X ~ D[0..7] -650 -200 295 R 50 50 1 1 B
-X ~ LE -650 -600 295 R 50 50 1 1 I
-X ~ ~CE -650 -750 295 R 50 50 1 1 I
-X ~ ~OE -650 -1050 295 R 50 50 1 1 I
-X ~ ~OET -650 -500 295 R 50 50 1 1 I
-X ~ ~WE -650 -950 295 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # FUNG_XTAL
 #
 DEF FUNG_XTAL U 0 40 Y Y 1 F N
@@ -382,6 +358,34 @@ T 0 0 -200 47 0 0 0 Компаратор Normal 0 C C
 S -250 -50 250 -350 0 1 0 N
 X ~ ~ -350 -300 100 R 50 50 1 1 I
 X ~ ~ -350 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# FUNG_extram
+#
+DEF FUNG_extram U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "FUNG_extram" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -250 50 0 0 0 Внешняя Normal 0 C C
+T 0 0 -350 50 0 0 0 оперативная Normal 0 C C
+T 0 0 -450 50 0 0 0 память Normal 0 C C
+S -250 -50 250 -650 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# FUNG_latch
+#
+DEF FUNG_latch U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "FUNG_latch" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -250 50 0 0 0 Триггер Normal 0 C C
+S -200 -50 200 -450 0 0 0 N
 ENDDRAW
 ENDDEF
 #
