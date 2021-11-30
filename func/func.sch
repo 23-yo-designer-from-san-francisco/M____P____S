@@ -947,53 +947,21 @@ Wire Wire Line
 Wire Wire Line
 	14100 2500 14100 2250
 Text Label 13400 2450 1    50   ~ 0
-PA0
+PC0
 Text Label 13500 2450 1    50   ~ 0
-PA1
+PC1
 Text Label 13600 2450 1    50   ~ 0
-PA2
+PC2
 Text Label 13700 2450 1    50   ~ 0
-PA3
+PC3
 Text Label 13800 2450 1    50   ~ 0
-PA4
+PC4
 Text Label 13900 2450 1    50   ~ 0
-PA5
+PC5
 Text Label 14000 2450 1    50   ~ 0
-PA6
+PC6
 Text Label 14100 2450 1    50   ~ 0
-PA7
-Wire Wire Line
-	12050 7700 12050 7450
-Wire Wire Line
-	11950 7450 11950 7700
-Wire Wire Line
-	11850 7450 11850 7700
-Wire Wire Line
-	11750 7450 11750 7700
-Wire Wire Line
-	11650 7450 11650 7700
-Wire Wire Line
-	11550 7450 11550 7700
-Wire Wire Line
-	11450 7450 11450 7700
-Wire Wire Line
-	11350 7450 11350 7700
-Text Label 12050 7500 3    50   ~ 0
-PA0
-Text Label 11950 7500 3    50   ~ 0
-PA1
-Text Label 11850 7500 3    50   ~ 0
-PA2
-Text Label 11750 7500 3    50   ~ 0
-PA3
-Text Label 11650 7500 3    50   ~ 0
-PA4
-Text Label 11550 7500 3    50   ~ 0
-PA5
-Text Label 11450 7500 3    50   ~ 0
-PA6
-Text Label 11350 7500 3    50   ~ 0
-PA7
+PC7
 Wire Wire Line
 	13450 7450 13450 7700
 Wire Wire Line
@@ -1011,21 +979,21 @@ Wire Wire Line
 Wire Wire Line
 	14150 7700 14150 7450
 Text Label 13450 7650 1    50   ~ 0
-PA0
+PD0
 Text Label 13550 7650 1    50   ~ 0
-PA1
+PD1
 Text Label 13650 7650 1    50   ~ 0
-PA2
+PD2
 Text Label 13750 7650 1    50   ~ 0
-PA3
+PD3
 Text Label 13850 7650 1    50   ~ 0
-PA4
+PD4
 Text Label 13950 7650 1    50   ~ 0
-PA5
+PD5
 Text Label 14050 7650 1    50   ~ 0
-PA6
+PD6
 Text Label 14150 7650 1    50   ~ 0
-PA7
+PD7
 Wire Wire Line
 	11900 7000 11900 7150
 $Comp
@@ -1052,26 +1020,6 @@ F 3 "~" H 11900 7050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13800 7000 13800 7150
-Wire Bus Line
-	11400 7000 14100 7000
-Wire Bus Line
-	11250 3050 14000 3050
-Wire Bus Line
-	13350 750  14350 750 
-Wire Bus Line
-	8350 1350 8350 3250
-Wire Bus Line
-	8450 450  13350 450 
-Wire Wire Line
-	4700 7750 4700 9550
-Wire Bus Line
-	6500 7750 6500 9600
-Wire Bus Line
-	3300 7550 3300 10800
-Wire Bus Line
-	8350 550  8350 1300
-Wire Bus Line
-	3400 4100 3400 6400
 $Comp
 L Graphic:SYM_Arrow_Tiny #SYM?
 U 1 1 61AAAEA2
@@ -1094,4 +1042,56 @@ F 3 "~" H 13800 7050 50  0001 C CNN
 	1    13800 7050
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	11350 7450 11350 7700
+Wire Wire Line
+	11450 7700 11450 7450
+Wire Wire Line
+	11550 7700 11550 7450
+Wire Wire Line
+	11650 7700 11650 7450
+Wire Wire Line
+	11750 7700 11750 7450
+Wire Wire Line
+	11850 7700 11850 7450
+Wire Wire Line
+	11950 7700 11950 7450
+Wire Wire Line
+	12050 7700 12050 7450
+Text Label 11350 7650 1    50   ~ 0
+PB0
+Text Label 11450 7650 1    50   ~ 0
+PB1
+Text Label 11550 7650 1    50   ~ 0
+PB2
+Text Label 11650 7650 1    50   ~ 0
+PB3
+Text Label 11750 7650 1    50   ~ 0
+PB4
+Text Label 11850 7650 1    50   ~ 0
+PB5
+Text Label 11950 7650 1    50   ~ 0
+PB6
+Text Label 12050 7650 1    50   ~ 0
+PB7
+Wire Bus Line
+	11400 7000 14100 7000
+Wire Bus Line
+	11250 3050 14000 3050
+Wire Bus Line
+	13350 750  14350 750 
+Wire Bus Line
+	8350 1350 8350 3250
+Wire Bus Line
+	8450 450  13350 450 
+Wire Wire Line
+	4700 7750 4700 9550
+Wire Bus Line
+	6500 7750 6500 9600
+Wire Bus Line
+	3300 7550 3300 10800
+Wire Bus Line
+	8350 550  8350 1300
+Wire Bus Line
+	3400 4100 3400 6400
 $EndSCHEMATC
