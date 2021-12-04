@@ -1,6 +1,32 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# CPU
+#
+DEF CPU U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "CPU" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -450 79 0 0 0 ЦПУ Normal 0 C C
+S -250 -50 250 -900 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# EEPROM
+#
+DEF EEPROM U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "EEPROM" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -200 47 0 0 0 EEPROM Normal 0 C C
+S -250 -50 250 -350 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # EXP
 #
 DEF EXP U 0 40 Y Y 1 F N
@@ -56,11 +82,53 @@ X ~ ~CS -900 -1050 354 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# INTERRUPTS
+#
+DEF INTERRUPTS U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "INTERRUPTS" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -150 47 0 0 0 Блок Normal 0 C C
+T 0 0 -250 47 0 0 0 Прерываний Normal 0 C C
+S -250 -50 250 -350 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# MCU_TIMERS
+#
+DEF MCU_TIMERS U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "MCU_TIMERS" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -250 47 0 0 0 МК Normal 0 C C
+T 0 0 -150 47 0 0 0 Таймеры Normal 0 C C
+S -250 -50 250 -350 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# OSC_INT
+#
+DEF OSC_INT U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "OSC_INT" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -150 47 0 0 0 Внутренний Normal 0 C C
+T 0 0 -250 47 0 0 0 осциллятор Normal 0 C C
+S -250 -50 250 -350 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # PEVM
 #
 DEF PEVM U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "PEVM" 0 0 50 H V C CNN
+F1 "PEVM" 0 0 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -68,6 +136,111 @@ T 0 0 -150 79 0 0 0 ПЭВМ Normal 0 C C
 S -200 -50 200 -300 0 1 0 N
 X ~ RXD -350 -150 150 R 50 50 1 1 I
 X ~ TXD -350 -250 150 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# PORTA
+#
+DEF PORTA U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "PORTA" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -200 47 0 0 0 "Порт А" Normal 0 C C
+S -450 -50 450 -350 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# PORTB
+#
+DEF PORTB U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "PORTB" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -200 47 0 0 0 "Порт B" Normal 0 C C
+S -450 -50 450 -350 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# PORTC
+#
+DEF PORTC U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "PORTC" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -200 47 0 0 0 "Порт C" Normal 0 C C
+S -450 -50 450 -350 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# PORTD
+#
+DEF PORTD U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "PORTD" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -200 47 0 0 0 "Порт D" Normal 0 C C
+S -450 -50 450 -350 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# PORTE
+#
+DEF PORTE U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "PORTE" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -200 47 0 0 0 "Порт E" Normal 0 C C
+S -200 -50 200 -350 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# SPI
+#
+DEF SPI U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "SPI" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -200 47 0 0 0 SPI Normal 0 C C
+S -250 -50 250 -350 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# USART
+#
+DEF USART U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "USART" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -200 47 0 0 0 USART Normal 0 C C
+S -250 -50 250 -350 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# WATCHDOG
+#
+DEF WATCHDOG U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "WATCHDOG" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -150 47 0 0 0 Сторожевой Normal 0 C C
+T 0 0 -250 47 0 0 0 таймер Normal 0 C C
+S -250 -50 250 -350 0 1 0 N
 ENDDRAW
 ENDDEF
 #
@@ -95,6 +268,77 @@ X ~ ~WE -650 -950 295 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# XTAL
+#
+DEF XTAL U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "XTAL" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -200 47 0 0 0 Осциллятор Normal 0 C C
+S -250 -50 250 -350 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# XTAL_int
+#
+DEF XTAL_int U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "XTAL_int" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -150 47 0 0 0 Внутренний Normal 0 C C
+T 0 0 -350 47 0 0 0 Осциллятор Normal 0 C C
+T 0 0 -250 47 0 1 1 Калиброванный Normal 0 C C
+S -300 -50 300 -450 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# cmp_internal
+#
+DEF cmp_internal U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "cmp_internal" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -200 47 0 0 0 Компаратор Normal 0 C C
+S -250 -50 250 -350 0 1 0 N
+X ~ ~ -350 -300 100 R 50 50 1 1 I
+X ~ ~ -350 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# extram
+#
+DEF extram U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "extram" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -250 50 0 0 0 Внешняя Normal 0 C C
+T 0 0 -350 50 0 0 0 оперативная Normal 0 C C
+T 0 0 -450 50 0 0 0 память Normal 0 C C
+S -250 -50 250 -650 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# latch
+#
+DEF latch U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "latch" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -250 50 0 0 0 Триггер Normal 0 C C
+S -200 -50 200 -450 0 0 0 N
+ENDDRAW
+ENDDEF
+#
 # prog
 #
 DEF prog U 0 40 Y Y 1 F N
@@ -103,9 +347,8 @@ F1 "prog" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-T 0 -50 -500 47 0 0 0 IDC-06MS Normal 0 C C
-T 0 -50 -400 47 0 0 0 программатора Normal 0 C C
-T 0 -50 -300 47 0 0 0 "Разъем для" Normal 0 C C
+T 0 -50 -450 47 0 0 0 программатора Normal 0 C C
+T 0 -50 -350 47 0 0 0 "Разъем для" Normal 0 C C
 S -450 -50 300 -750 0 0 0 N
 X ~ GND -600 -700 150 R 50 50 1 1 I
 X ~ MISO -600 -150 150 R 50 50 1 1 I
@@ -113,6 +356,20 @@ X ~ MOSI -600 -350 150 R 50 50 1 1 I
 X ~ RST -600 -450 150 R 50 50 1 1 I
 X ~ SCK -600 -250 150 R 50 50 1 1 I
 X ~ VCC -600 -600 150 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# prog_logic
+#
+DEF prog_logic U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "prog_logic" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -150 47 0 0 0 Логика Normal 0 C C
+T 0 0 -250 47 0 0 0 Программирования Normal 0 C C
+S -350 -50 350 -350 0 1 0 N
 ENDDRAW
 ENDDEF
 #
