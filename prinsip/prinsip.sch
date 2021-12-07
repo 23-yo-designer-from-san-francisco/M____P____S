@@ -4,20 +4,20 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "Схема электрическая принципиальная"
+Title "Схема принципиальная электрическая"
 Date ""
 Rev ""
 Comp "МГТУ им. Н.Э. Баумана\\nгруппа ИУ6-71Б"
-Comment1 "Неизвестное устройство"
+Comment1 "Устройство регистрации и обработки потоков входных данных"
 Comment2 "Л.А. Беляев"
 Comment3 "В.Я. Хартов"
 Comment4 ""
 $EndDescr
 $Comp
-L prinsip-rescue:MCP23S17_SO-Interface_Expansion U?
+L prinsip-rescue:MCP23S17_SO-Interface_Expansion U4
 U 1 1 618932CE
 P 8250 2750
-F 0 "U?" H 8250 4031 50  0000 C CNN
+F 0 "U4" H 8250 4031 50  0000 C CNN
 F 1 "MCP23S17_SO" H 8250 3940 50  0000 C CNN
 F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 8450 1750 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 8450 1650 50  0001 L CNN
@@ -115,10 +115,10 @@ Connection ~ 7300 10350
 Wire Wire Line
 	7300 10350 7300 10500
 $Comp
-L prinsip-rescue:74LS373-74xx U?
+L prinsip-rescue:74LS373-74xx U7
 U 1 1 618B9D34
 P 13500 3400
-F 0 "U?" H 13500 4381 50  0000 C CNN
+F 0 "U7" H 13500 4381 50  0000 C CNN
 F 1 "74LS373" H 13500 4290 50  0000 C CNN
 F 2 "" H 13500 3400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 13500 3400 50  0001 C CNN
@@ -126,21 +126,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 13500 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L prinsip-rescue:MAX232-Interface_UART U?
-U 1 1 618944AD
-P 8250 5350
-F 0 "U?" H 8250 6731 50  0000 C CNN
-F 1 "MAX232" H 8250 6640 50  0000 C CNN
-F 2 "" H 8300 4300 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 8250 5450 50  0001 C CNN
-	1    8250 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L prinsip-rescue:6264-custom U?
+L prinsip-rescue:6264-custom U8
 U 1 1 6189600C
 P 15150 2750
-F 0 "U?" H 15150 2865 50  0000 C CNN
+F 0 "U8" H 15150 2865 50  0000 C CNN
 F 1 "6264" H 15150 2774 50  0000 C CNN
 F 2 "" H 15150 2750 50  0001 C CNN
 F 3 "" H 15150 2750 50  0001 C CNN
@@ -156,10 +145,10 @@ Text Notes 4500 8400 0    118  ~ 0
 Text Notes 3250 2150 0    197  ~ 0
 Источник
 $Comp
-L prinsip-rescue:TM1637-TM1637 U?
+L prinsip-rescue:TM1637-TM1637 U2
 U 1 1 61AB82C7
 P 3350 9600
-F 0 "U?" H 3350 10767 50  0000 C CNN
+F 0 "U2" H 3350 10767 50  0000 C CNN
 F 1 "TM1637" H 3350 10676 50  0000 C CNN
 F 2 "DIP778W43P254L2612H431Q20N" H 3350 9600 50  0001 L BNN
 F 3 "" H 3350 9600 50  0001 L BNN
@@ -190,10 +179,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2512.pdf" H 4300 4750 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L prinsip-rescue:ATmega8515L-8JU-MCU_Microchip_ATmega U?
+L prinsip-rescue:ATmega8515L-8JU-MCU_Microchip_ATmega U6
 U 1 1 61894F8C
 P 11050 4600
-F 0 "U?" H 11050 6781 50  0000 C CNN
+F 0 "U6" H 11050 6781 50  0000 C CNN
 F 1 "ATmega8515L-8JU" H 11050 6690 50  0000 C CNN
 F 2 "Package_LCC:PLCC-44" H 11050 4600 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2512.pdf" H 11050 4600 50  0001 C CNN
@@ -201,18 +190,16 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2512.pdf" H 11050 4600 5
 	-1   0    0    -1  
 $EndComp
 $Comp
-L prinsip-rescue:CA56-12CGKWA-Display_Character U?
+L prinsip-rescue:CA56-12CGKWA-Display_Character U3
 U 1 1 61AA78F0
 P 5500 9900
-F 0 "U?" H 5500 10567 50  0000 C CNN
+F 0 "U3" H 5500 10567 50  0000 C CNN
 F 1 "CA56-12CGKWA" H 5500 10476 50  0000 C CNN
 F 2 "Display_7Segment:CA56-12CGKWA" H 5500 9300 50  0001 C CNN
 F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12CGKWA(Ver.9A).pdf" H 5070 9930 50  0001 C CNN
 	1    5500 9900
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	15950 1800 15950 3000
 Wire Bus Line
 	15650 2900 15850 2900
 Entry Bus Bus
@@ -410,7 +397,7 @@ Entry Wire Line
 	12500 3200 12600 3300
 Text Notes 11850 3300 0    50   ~ 0
 8МГц
-Text Notes 12200 3000 0    50   ~ 0
+Text Notes 12300 3050 0    50   ~ 0
 С1\n22нФ
 Text Notes 12200 3550 0    50   ~ 0
 С2\n22нФ
@@ -427,8 +414,6 @@ F 3 "~" H 3225 3350 50  0001 C CNN
 $EndComp
 Text Notes 3350 3450 0    50   ~ 0
 8МГц
-Text Notes 3250 3200 2    50   ~ 0
-С1\n22нФ
 Text Notes 3100 3700 0    50   ~ 0
 С2\n22нФ
 Wire Wire Line
@@ -527,7 +512,6 @@ Wire Wire Line
 	4300 2700 2650 2700
 Entry Wire Line
 	2550 2600 2650 2700
-Connection ~ 12600 4450
 Wire Wire Line
 	11650 5700 12500 5700
 Entry Wire Line
@@ -624,8 +608,6 @@ F 3 "~" H 9700 5250 50  0001 C CNN
 $EndComp
 Entry Wire Line
 	9950 5250 10050 5350
-Wire Wire Line
-	9850 5250 9950 5250
 Wire Wire Line
 	9050 5250 9550 5250
 Wire Wire Line
@@ -880,10 +862,6 @@ Entry Wire Line
 	2550 8800 2650 8900
 Entry Wire Line
 	2550 9000 2650 9100
-Entry Wire Line
-	8850 6000 8950 6100
-Entry Wire Line
-	9700 7900 9800 8000
 Wire Wire Line
 	13000 2900 12700 2900
 Entry Wire Line
@@ -924,43 +902,514 @@ Wire Wire Line
 	13000 3900 12700 3900
 Entry Wire Line
 	12600 3800 12700 3900
+Entry Wire Line
+	2550 2950 2650 3050
+Wire Notes Line
+	1800 6950 5450 6950
+Wire Notes Line
+	5450 6950 5450 1450
+Wire Notes Line
+	5450 1450 1800 1450
+Wire Notes Line
+	1800 1450 1800 6950
+Wire Notes Line
+	9500 3900 6850 3900
+Wire Notes Line
+	6850 3900 6850 7050
+Wire Notes Line
+	6850 7050 16150 7050
+Wire Notes Line
+	16150 7050 16150 950 
+Wire Notes Line
+	16150 950  9450 950 
+Wire Notes Line
+	9450 950  9450 3900
+Text Notes 13800 6900 0    197  ~ 0
+Получатель
+Text Notes 10150 2900 0    50   ~ 0
+D0
+Text Notes 10150 3000 0    50   ~ 0
+D1
+Text Notes 10150 3100 0    50   ~ 0
+D2
+Text Notes 10150 3200 0    50   ~ 0
+D3
+Text Notes 10150 3300 0    50   ~ 0
+D4
+Text Notes 10150 3400 0    50   ~ 0
+D5
+Text Notes 10150 3500 0    50   ~ 0
+D6
+Text Notes 10150 3600 0    50   ~ 0
+D7
+Text Notes 10150 4700 0    50   ~ 0
+A8
+Text Notes 10150 4800 0    50   ~ 0
+A9
+Text Notes 10150 4900 0    50   ~ 0
+A10
+Text Notes 10150 5000 0    50   ~ 0
+A11
+Text Notes 10150 5100 0    50   ~ 0
+A12
+Text Notes 10150 5200 0    50   ~ 0
+A13
+Text Notes 10150 5300 0    50   ~ 0
+A14
+Text Notes 10150 5400 0    50   ~ 0
+A15
+Text Notes 10150 5600 0    50   ~ 0
+BTN0
+Text Notes 10150 5700 0    50   ~ 0
+TXD
+Text Notes 10150 5800 0    50   ~ 0
+BTN1
+Text Notes 10150 5900 0    50   ~ 0
+BTN2
+Text Notes 10150 6000 0    50   ~ 0
+BTN3
+Text Notes 10150 6100 0    50   ~ 0
+BTN4
+Text Notes 10150 6200 0    50   ~ 0
+~WR
+Text Notes 10150 6300 0    50   ~ 0
+~RD
+Text Notes 10150 6650 0    50   ~ 0
+GND
+Text Notes 10150 3800 0    50   ~ 0
+DIO
+Text Notes 10150 3900 0    50   ~ 0
+TM_CLK
+Text Notes 10150 4000 0    50   ~ 0
+PING
+Text Notes 10150 4100 0    50   ~ 0
+PONG
+Text Notes 10150 4200 0    50   ~ 0
+~SS
+Text Notes 10150 4300 0    50   ~ 0
+MOSI\n
+Text Notes 10150 4400 0    50   ~ 0
+MISO
+Text Notes 10150 4500 0    50   ~ 0
+SCK_RC
+Text Notes 11700 5700 0    50   ~ 0
+LE
+Text Notes 11700 5800 0    50   ~ 0
+RCVD
+Wire Wire Line
+	11050 2600 10150 2600
+Entry Wire Line
+	10050 2500 10150 2600
+Text Notes 10150 2600 0    50   ~ 0
+VCC
+Text Notes 6450 1950 0    50   ~ 0
+THR1_0
+Text Notes 6450 2050 0    50   ~ 0
+THR1_1
+Text Notes 6450 2150 0    50   ~ 0
+THR1_2
+Text Notes 6450 2250 0    50   ~ 0
+THR1_3
+Text Notes 6450 2350 0    50   ~ 0
+THR1_4
+Text Notes 6450 2450 0    50   ~ 0
+THR1_5
+Text Notes 6450 2550 0    50   ~ 0
+THR1_6
+Text Notes 6450 2650 0    50   ~ 0
+THR1_7
+Text Notes 6450 2850 0    50   ~ 0
+THR2_0
+Text Notes 6450 2950 0    50   ~ 0
+THR2_1
+Text Notes 6450 3050 0    50   ~ 0
+THR2_2
+Text Notes 6450 3150 0    50   ~ 0
+THR2_3
+Text Notes 6450 3250 0    50   ~ 0
+THR2_4
+Text Notes 6450 3350 0    50   ~ 0
+THR2_5
+Text Notes 6450 3450 0    50   ~ 0
+THR2_6
+Text Notes 6450 3550 0    50   ~ 0
+THR2_7
+Text Notes 9000 1950 0    50   ~ 0
+SS
+Text Notes 9000 2050 0    50   ~ 0
+SCK_RC
+Text Notes 9000 2150 0    50   ~ 0
+MOSI
+Text Notes 9000 2250 0    50   ~ 0
+MISO
+Wire Wire Line
+	11650 2900 12500 2900
+Entry Wire Line
+	12500 2900 12600 3000
+Text Notes 9000 2850 0    50   ~ 0
+RST
+Text Notes 11700 2900 0    50   ~ 0
+RST
+Wire Wire Line
+	2650 3050 3700 3050
+Text Notes 2650 2700 0    50   ~ 0
+VCC
+Text Notes 2650 3050 0    50   ~ 0
+RST
+Text Notes 2650 3350 0    50   ~ 0
+GND
+Text Notes 12400 3200 0    50   ~ 0
+GND
+Text Notes 12700 2900 0    50   ~ 0
+D0
+Text Notes 12700 3000 0    50   ~ 0
+D1\n
+Text Notes 12700 3100 0    50   ~ 0
+D2
+Text Notes 12700 3200 0    50   ~ 0
+D3
+Text Notes 12700 3300 0    50   ~ 0
+D4
+Text Notes 12700 3400 0    50   ~ 0
+D5
+Text Notes 12700 3500 0    50   ~ 0
+D6
+Text Notes 12700 3600 0    50   ~ 0
+D7
+Text Notes 12700 3800 0    50   ~ 0
+LE
+Text Notes 12700 3900 0    50   ~ 0
+GND
+Text Notes 13500 4350 1    50   ~ 0
+GND
+Text Notes 12850 2600 2    50   ~ 0
+VCC
+Text Notes 14200 2900 2    50   ~ 0
+Q0/A8
+Text Notes 14200 3000 2    50   ~ 0
+Q1/A9
+Text Notes 14250 3100 2    50   ~ 0
+Q2/A10
+Text Notes 14250 3200 2    50   ~ 0
+Q3/A11
+Text Notes 14250 3300 2    50   ~ 0
+Q4/A12
+Text Notes 14250 3400 2    50   ~ 0
+Q5/A13
+Text Notes 14250 3500 2    50   ~ 0
+Q6/A14
+Text Notes 14250 3600 2    50   ~ 0
+Q7/A15
+Text Notes 14600 3000 2    50   ~ 0
+A15
+Text Notes 14600 3100 2    50   ~ 0
+GND
+Text Notes 14550 3200 2    50   ~ 0
+~WR
+Text Notes 14550 3300 2    50   ~ 0
+~RD
+Text Notes 5250 3050 2    50   ~ 0
+THR1_0
+Text Notes 5250 3150 2    50   ~ 0
+THR1_1
+Text Notes 5250 3250 2    50   ~ 0
+THR1_2
+Text Notes 5250 3350 2    50   ~ 0
+THR1_3
+Text Notes 5250 3450 2    50   ~ 0
+THR1_4
+Text Notes 5250 3550 2    50   ~ 0
+THR1_5
+Text Notes 5250 3650 2    50   ~ 0
+THR1_6
+Text Notes 5250 3750 2    50   ~ 0
+THR1_7
+Text Notes 5250 4850 2    50   ~ 0
+THR2_0
+Text Notes 5250 4950 2    50   ~ 0
+THR2_1
+Text Notes 5250 5050 2    50   ~ 0
+THR2_2
+Text Notes 5250 5150 2    50   ~ 0
+THR2_3
+Text Notes 5250 5250 2    50   ~ 0
+THR2_4
+Text Notes 5250 5350 2    50   ~ 0
+THR2_5
+Text Notes 5250 5450 2    50   ~ 0
+THR2_6
+Text Notes 5250 5550 2    50   ~ 0
+THR2_7
+Text Notes 5000 4050 0    50   ~ 0
+PONG
+Text Notes 5000 4150 0    50   ~ 0
+PING
+Text Notes 5000 4250 0    50   ~ 0
+RCVD
+Text Notes 3900 6850 0    50   ~ 0
+GND
+Text Notes 2550 8850 0    50   ~ 0
+TM_CLK
+Text Notes 2550 9000 0    50   ~ 0
+DIO
+Text Notes 4000 8700 0    50   ~ 0
+VCC
+Text Notes 4050 9600 0    50   ~ 0
+a
+Text Notes 4050 9700 0    50   ~ 0
+b
+Text Notes 4050 9800 0    50   ~ 0
+c
+Text Notes 4050 9900 0    50   ~ 0
+d
+Text Notes 4050 10000 0    50   ~ 0
+e
+Text Notes 4050 10100 0    50   ~ 0
+f
+Text Notes 4050 10200 0    50   ~ 0
+g
+Text Notes 4050 10300 0    50   ~ 0
+dp
+Text Notes 4300 9600 0    50   ~ 0
+a
+Text Notes 4300 9700 0    50   ~ 0
+b
+Text Notes 4300 9800 0    50   ~ 0
+c
+Text Notes 4300 9900 0    50   ~ 0
+d
+Text Notes 4300 10000 0    50   ~ 0
+e
+Text Notes 4300 10100 0    50   ~ 0
+f
+Text Notes 4300 10200 0    50   ~ 0
+g
+Text Notes 4300 10300 0    50   ~ 0
+dp
+Text Notes 4000 10500 0    50   ~ 0
+GND
+Text Notes 4050 8900 0    50   ~ 0
+G1
+Text Notes 4050 9000 0    50   ~ 0
+G2
+Text Notes 4050 9100 0    50   ~ 0
+G3
+Text Notes 4050 9200 0    50   ~ 0
+G4
+Text Notes 6650 10000 0    50   ~ 0
+G1
+Text Notes 6650 10100 0    50   ~ 0
+G2
+Text Notes 6650 10200 0    50   ~ 0
+G3
+Text Notes 6650 10300 0    50   ~ 0
+G4
+Text Notes 7900 8950 0    50   ~ 0
+BTN0
+Text Notes 7900 9300 0    50   ~ 0
+BTN1
+Text Notes 7900 9650 0    50   ~ 0
+BTN2
+Text Notes 7900 10000 0    50   ~ 0
+BTN3
+Text Notes 7900 10350 0    50   ~ 0
+BTN4
+Text Notes 9100 7950 0    79   ~ 0
+Назначение
+Text Notes 8950 7950 0    79   ~ 0
+#
+Text Notes 8900 8100 0    79   ~ 0
+1
+Text Notes 8900 8250 0    79   ~ 0
+2
+Wire Bus Line
+	9050 7800 9050 8300
+Wire Bus Line
+	8900 8300 10650 8300
+Wire Bus Line
+	8900 7950 10650 7950
+Wire Bus Line
+	8900 7800 10650 7800
+Entry Wire Line
+	8800 7950 8900 8050
+Entry Wire Line
+	8800 8100 8900 8200
+Wire Bus Line
+	8900 8150 10650 8150
+Text Notes 9100 8100 0    79   ~ 0
+VCC / +5В
+Text Notes 9100 8300 0    79   ~ 0
+GND
+Wire Bus Line
+	10650 7800 10650 8300
+Text Notes 8750 1600 0    50   ~ 0
+VCC
+Text Notes 8600 3850 0    50   ~ 0
+GND
+Text Notes 7250 4150 0    50   ~ 0
+VCC
+Text Notes 7200 5450 0    50   ~ 0
+TXD
+Text Notes 8250 6700 0    50   ~ 0
+GND
 $Comp
-L prinsip-rescue:SW_MEC_5G-Switch SW?
-U 1 1 620DE12F
-P 3200 3050
-F 0 "SW?" H 3200 3243 50  0000 C CNN
-F 1 "SW_MEC_5G-Switch" H 3200 3244 50  0001 C CNN
-F 2 "" H 3200 3250 50  0001 C CNN
-F 3 "" H 3200 3250 50  0001 C CNN
-	1    3200 3050
+L prinsip-rescue:MAX232-Interface_UART U5
+U 1 1 618944AD
+P 8250 5350
+F 0 "U5" H 8250 6731 50  0000 C CNN
+F 1 "MAX232" H 8250 6640 50  0000 C CNN
+F 2 "" H 8300 4300 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 8250 5450 50  0001 C CNN
+	1    8250 5350
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	9900 5500 9150 5500
+Text Notes 9200 5450 0    50   ~ 0
+#
+Text Notes 9350 5450 0    50   ~ 0
+Назначение
+Text Notes 9200 5600 0    50   ~ 0
+1
+Text Notes 9350 5600 0    50   ~ 0
+К RXD ПЭВМ
+Entry Wire Line
+	9050 5450 9150 5550
+Wire Wire Line
+	9850 5250 9950 5250
+Wire Bus Line
+	9900 5350 9900 5650
+Wire Bus Line
+	9300 5350 9300 5650
+Wire Bus Line
+	9150 5650 9900 5650
+Wire Bus Line
+	9150 5350 9900 5350
+Wire Wire Line
+	14650 3400 14450 3400
+Wire Wire Line
+	14650 3500 14450 3500
+Entry Wire Line
+	14350 3300 14450 3400
+Entry Wire Line
+	14350 3400 14450 3500
+Text Notes 14450 3400 0    50   ~ 0
+VCC
+Text Notes 14450 3500 0    50   ~ 0
+GND
+Wire Bus Line
+	8900 7800 8900 8300
+$Comp
+L prinsip-rescue:USBASP U?
+U 1 1 61FBE46C
+P 15300 2000
+F 0 "U?" H 15325 2115 50  0001 C CNN
+F 1 "USBAsp" H 15325 2023 50  0000 C CNN
+F 2 "" H 15300 2000 50  0001 C CNN
+F 3 "" H 15300 2000 50  0001 C CNN
+	1    15300 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 3050 3400 3050
+	15600 2150 15800 2150
 Wire Wire Line
-	3000 3050 2650 3050
+	15600 2300 15800 2300
+Wire Wire Line
+	15600 2450 15800 2450
+Entry Wire Line
+	15850 2150 15950 2250
+Entry Wire Line
+	15850 2300 15950 2400
+Entry Wire Line
+	15850 2450 15950 2550
+Entry Wire Line
+	14350 2050 14450 2150
+Wire Wire Line
+	4900 4650 6250 4650
+Entry Wire Line
+	6250 4650 6350 4750
+Wire Wire Line
+	4900 4550 6250 4550
+Entry Wire Line
+	6250 4550 6350 4650
+Wire Wire Line
+	4900 4450 6250 4450
+Entry Wire Line
+	6250 4450 6350 4550
+Text Notes 5000 4450 0    50   ~ 0
+MOSI
+Text Notes 5000 4550 0    50   ~ 0
+MISO
+Text Notes 5000 4650 0    50   ~ 0
+SCK_TR
+Text Notes 9000 3350 0    50   ~ 0
+GND
+Text Notes 9000 3450 0    50   ~ 0
+GND
+Text Notes 9000 3550 0    50   ~ 0
+GND
+Connection ~ 15800 2150
+Wire Wire Line
+	15800 2150 15850 2150
+Connection ~ 15800 2300
+Wire Wire Line
+	15800 2300 15850 2300
+Connection ~ 15800 2450
+Wire Wire Line
+	15800 2450 15850 2450
+$Comp
+L Switch:SW_DPDT_x2 SW2
+U 1 1 620DE963
+P 14650 2300
+F 0 "SW2" H 14700 2300 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 14650 2066 50  0001 C CNN
+F 2 "" H 14650 2300 50  0001 C CNN
+F 3 "~" H 14650 2300 50  0001 C CNN
+	1    14650 2300
+	-1   0    0    1   
+$EndComp
+Entry Wire Line
+	14350 2100 14450 2200
+Entry Wire Line
+	14350 2300 14450 2400
+Wire Wire Line
+	14850 2600 14450 2600
+Entry Wire Line
+	14350 2500 14450 2600
+Wire Wire Line
+	14450 2150 14850 2150
+Text Notes 14600 2250 0    50   ~ 0
+SCK_RC
+Text Notes 14550 2500 0    50   ~ 0
+SCK_TR
+Text Notes 14450 2150 0    50   ~ 0
+MISO
+Wire Wire Line
+	14850 2450 14850 2600
+Wire Bus Line
+	9150 5350 9150 5650
 Wire Bus Line
 	6350 6750 10050 6750
 Wire Bus Line
 	12600 4450 14350 4450
 Wire Bus Line
-	12600 4450 12600 5950
+	15950 1800 15950 3000
 Wire Bus Line
 	6850 8550 6850 10800
 Wire Bus Line
-	8800 7400 8800 10800
-Wire Bus Line
 	2550 1800 2550 10850
 Wire Bus Line
-	14350 1800 14350 4450
+	8800 7400 8800 10800
+Wire Bus Line
+	12600 1600 12600 5950
 Wire Bus Line
 	4200 8550 4200 10850
 Wire Bus Line
-	12600 1600 12600 4450
+	14350 1800 14350 4450
 Wire Bus Line
 	6350 1800 6350 6750
 Wire Bus Line
 	10050 1600 10050 6750
-Entry Wire Line
-	2550 2950 2650 3050
+Text Notes 14450 2600 0    50   ~ 0
+RST
 $EndSCHEMATC
