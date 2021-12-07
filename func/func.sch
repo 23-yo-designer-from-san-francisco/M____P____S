@@ -18,31 +18,25 @@ Text Notes 15950 1500 3    157  ~ 0
 $Comp
 L FUNG:EXP U?
 U 1 1 61886D8F
-P 5600 5000
-F 0 "U?" H 5600 5206 157 0001 C CNN
-F 1 "EXP" H 5600 4954 157 0001 C CNN
-F 2 "" H 5600 5000 157 0001 C CNN
-F 3 "" H 5600 5000 157 0001 C CNN
-	1    5600 5000
+P 8350 6450
+F 0 "U?" H 8350 6656 157 0001 C CNN
+F 1 "EXP" H 8350 6404 157 0001 C CNN
+F 2 "" H 8350 6450 157 0001 C CNN
+F 3 "" H 8350 6450 157 0001 C CNN
+	1    8350 6450
 	1    0    0    -1  
 $EndComp
 $Comp
 L FUNG:rs232 U?
 U 1 1 61899266
-P 8100 8050
-F 0 "U?" H 8100 8165 50  0001 C CNN
-F 1 "rs232" H 8100 8073 50  0001 C CNN
-F 2 "" H 8100 8050 50  0001 C CNN
-F 3 "" H 8100 8050 50  0001 C CNN
-	1    8100 8050
+P 14550 7800
+F 0 "U?" H 14550 7915 50  0001 C CNN
+F 1 "rs232" H 14550 7823 50  0001 C CNN
+F 2 "" H 14550 7800 50  0001 C CNN
+F 3 "" H 14550 7800 50  0001 C CNN
+	1    14550 7800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8650 8200 8800 8200
-Wire Wire Line
-	8800 8300 8650 8300
-Text Notes 8850 8300 0    50   ~ 0
-К ПЭВМ
 $Comp
 L FUNG:cmp_internal U?
 U 1 1 61A5A1CF
@@ -343,23 +337,6 @@ Wire Wire Line
 	14250 4800 14250 4600
 Wire Wire Line
 	14250 4600 13550 4600
-Text Label 11200 2450 1    50   ~ 0
-PA0
-Text Label 11300 2450 1    50   ~ 0
-PA1
-Text Label 11400 2450 1    50   ~ 0
-PA2
-$Comp
-L Display_Character:CA56-12CGKWA U?
-U 1 1 61A67960
-P 8500 2650
-F 0 "U?" H 8500 3317 50  0001 C CNN
-F 1 "CA56-12CGKWA" H 8500 3226 50  0001 C CNN
-F 2 "Display_7Segment:CA56-12CGKWA" H 8500 2050 50  0001 C CNN
-F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12CGKWA(Ver.9A).pdf" H 8070 2680 50  0001 C CNN
-	1    8500 2650
-	1    0    0    -1  
-$EndComp
 $Comp
 L Graphic:SYM_Arrow_Tiny #SYM?
 U 1 1 61A6E088
@@ -692,48 +669,6 @@ F 3 "~" H 13750 2850 50  0001 C CNN
 	1    13750 2850
 	0    -1   -1   0   
 $EndComp
-Text Label 11500 2450 1    50   ~ 0
-PA3
-Text Label 11600 2450 1    50   ~ 0
-PA4
-Text Label 11700 2450 1    50   ~ 0
-PA5
-Text Label 11800 2450 1    50   ~ 0
-PA6
-Text Label 11900 2450 1    50   ~ 0
-PA7
-Text Label 13400 2450 1    50   ~ 0
-PC0
-Text Label 13500 2450 1    50   ~ 0
-PC1
-Text Label 13600 2450 1    50   ~ 0
-PC2
-Text Label 13700 2450 1    50   ~ 0
-PC3
-Text Label 13800 2450 1    50   ~ 0
-PC4
-Text Label 13900 2450 1    50   ~ 0
-PC5
-Text Label 14000 2450 1    50   ~ 0
-PC6
-Text Label 14100 2450 1    50   ~ 0
-PC7
-Text Label 13450 7650 1    50   ~ 0
-PD0
-Text Label 13550 7650 1    50   ~ 0
-PD1
-Text Label 13650 7650 1    50   ~ 0
-PD2
-Text Label 13750 7650 1    50   ~ 0
-PD3
-Text Label 13850 7650 1    50   ~ 0
-PD4
-Text Label 13950 7650 1    50   ~ 0
-PD5
-Text Label 14050 7650 1    50   ~ 0
-PD6
-Text Label 14150 7650 1    50   ~ 0
-PD7
 Wire Wire Line
 	11900 7000 11900 7150
 $Comp
@@ -782,29 +717,12 @@ F 3 "~" H 13800 7050 50  0001 C CNN
 	1    13800 7050
 	0    -1   -1   0   
 $EndComp
-Text Label 11350 7650 1    50   ~ 0
-PB0
-Text Label 11450 7650 1    50   ~ 0
-PB1
-Text Label 11550 7650 1    50   ~ 0
-PB2
-Text Label 11650 7650 1    50   ~ 0
-PB3
-Text Label 11750 7650 1    50   ~ 0
-PB4
-Text Label 11850 7650 1    50   ~ 0
-PB5
-Text Label 11950 7650 1    50   ~ 0
-PB6
-Text Label 12050 7650 1    50   ~ 0
-PB7
 Wire Wire Line
 	11750 5350 10500 5350
 Wire Wire Line
 	10500 5350 10500 7600
 Wire Wire Line
 	10500 7600 11550 7600
-Connection ~ 11550 7600
 Wire Wire Line
 	11550 7600 11550 7450
 Wire Wire Line
@@ -816,569 +734,717 @@ Wire Wire Line
 Wire Wire Line
 	11650 7500 11650 7450
 $Comp
-L kur_func:Driver_TM1637 U?
-U 1 1 61A782A3
-P 5700 4200
-F 0 "U?" H 5733 4965 50  0000 C CNN
-F 1 "Driver_TM1637" H 5733 4874 50  0000 C CNN
-F 2 "" H 5350 5100 50  0001 C CNN
-F 3 "" H 5350 5100 50  0001 C CNN
-	1    5700 4200
-	1    0    0    -1  
-$EndComp
-Text Notes 4850 3700 0    50   ~ 0
-CLK
-Text Label 4850 3800 0    50   ~ 0
-DIO
-Text Label 4850 4000 0    50   ~ 0
-K2
-Text Label 4850 4100 0    50   ~ 0
-K1
-Text Label 4850 4200 0    50   ~ 0
-GRID1
-Text Label 4850 4300 0    50   ~ 0
-GRID2
-Text Label 4850 4400 0    50   ~ 0
-GRID3
-Text Label 4850 4500 0    50   ~ 0
-GRID4
-Text Label 4850 4600 0    50   ~ 0
-GRID5
-Text Label 4850 4700 0    50   ~ 0
-GRID6
-$Comp
 L FUNG:latch U?
 U 1 1 61A79845
-P 7700 3950
-F 0 "U?" H 7928 3796 50  0001 L CNN
-F 1 "latch" H 7928 3705 50  0001 L CNN
-F 2 "" H 7700 3950 50  0001 C CNN
-F 3 "" H 7700 3950 50  0001 C CNN
-	1    7700 3950
+P 11900 1000
+F 0 "U?" H 12128 846 50  0001 L CNN
+F 1 "latch" H 12128 755 50  0001 L CNN
+F 2 "" H 11900 1000 50  0001 C CNN
+F 3 "" H 11900 1000 50  0001 C CNN
+	1    11900 1000
 	1    0    0    -1  
 $EndComp
 $Comp
 L FUNG:extram U?
 U 1 1 61A7A39C
-P 7750 4800
-F 0 "U?" H 8028 4596 50  0001 L CNN
-F 1 "extram" H 8028 4505 50  0001 L CNN
-F 2 "" H 7750 4800 50  0001 C CNN
-F 3 "" H 7750 4800 50  0001 C CNN
-	1    7750 4800
+P 13450 900
+F 0 "U?" H 13728 696 50  0001 L CNN
+F 1 "extram" H 13728 605 50  0001 L CNN
+F 2 "" H 13450 900 50  0001 C CNN
+F 3 "" H 13450 900 50  0001 C CNN
+	1    13450 900 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12550 2250 12550 2500
-Wire Wire Line
-	12750 2500 12750 2250
-Text Label 12550 2450 1    50   ~ 0
-PE0
-Text Label 12650 2450 1    50   ~ 0
-PE1
-Text Label 12750 2450 1    50   ~ 0
-PE2
-Wire Wire Line
-	12650 2000 12650 2500
-Text Label 7350 5050 0    50   ~ 0
-~CE
-Text Label 7350 5150 0    50   ~ 0
-CS
-Text Label 7350 5250 0    50   ~ 0
-~WE
-Text Label 7350 5350 0    50   ~ 0
-~OE
-Wire Wire Line
-	14050 7450 14050 8300
-Wire Wire Line
-	14150 7450 14150 8400
-Wire Wire Line
-	9600 3050 9650 3050
-Wire Wire Line
-	9600 2950 9700 2950
-Wire Wire Line
-	9600 2850 9750 2850
-Wire Wire Line
-	9800 2750 9600 2750
-Wire Wire Line
-	2550 9800 3750 9800
-Wire Wire Line
-	2550 9400 3750 9400
-Wire Wire Line
-	2550 9000 3750 9000
-Wire Wire Line
-	2550 8600 3750 8600
-Wire Wire Line
-	2550 8250 3750 8250
-Entry Wire Line
-	2400 8000 2500 8100
-Entry Wire Line
-	2400 8000 2500 8100
-Text Label 3000 9800 0    50   ~ 0
-PD5
-Text Label 3000 9400 0    50   ~ 0
-PD4
-Text Label 3000 9000 0    50   ~ 0
-PD3
-Text Label 3000 8600 0    50   ~ 0
-PD2
-Text Label 3000 8250 0    50   ~ 0
-PD0
 $Comp
 L power:Earth #PWR?
 U 1 1 618999D5
-P 2050 9950
-F 0 "#PWR?" H 2050 9700 50  0001 C CNN
-F 1 "Earth" H 2050 9800 50  0001 C CNN
-F 2 "" H 2050 9950 50  0001 C CNN
-F 3 "~" H 2050 9950 50  0001 C CNN
-	1    2050 9950
+P 1050 10700
+F 0 "#PWR?" H 1050 10450 50  0001 C CNN
+F 1 "Earth" H 1050 10550 50  0001 C CNN
+F 2 "" H 1050 10700 50  0001 C CNN
+F 3 "~" H 1050 10700 50  0001 C CNN
+	1    1050 10700
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
-	2050 9700 2150 9800
+	1050 10450 1150 10550
 Entry Wire Line
-	2050 9300 2150 9400
+	1050 10050 1150 10150
 Entry Wire Line
-	2050 8900 2150 9000
+	1050 9650 1150 9750
 Entry Wire Line
-	2050 8500 2150 8600
+	1050 9250 1150 9350
 Entry Wire Line
-	2050 8150 2150 8250
+	1050 8900 1150 9000
 $Comp
 L Switch:SW_MEC_5G SW1
 U 1 1 61896E38
-P 2350 8250
-F 0 "SW1" H 2350 8535 50  0000 C CNN
-F 1 "SW_MEC_5G" H 2350 8444 50  0000 C CNN
-F 2 "" H 2350 8450 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2350 8450 50  0001 C CNN
-	1    2350 8250
+P 1350 9000
+F 0 "SW1" H 1350 9285 50  0001 C CNN
+F 1 "SW_MEC_5G" H 1350 9194 50  0001 C CNN
+F 2 "" H 1350 9200 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 1350 9200 50  0001 C CNN
+	1    1350 9000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_MEC_5G SW5
 U 1 1 61896541
-P 2350 9800
-F 0 "SW5" H 2350 10085 50  0000 C CNN
-F 1 "SW_MEC_5G" H 2350 9994 50  0000 C CNN
-F 2 "" H 2350 10000 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2350 10000 50  0001 C CNN
-	1    2350 9800
+P 1350 10550
+F 0 "SW5" H 1350 10835 50  0001 C CNN
+F 1 "SW_MEC_5G" H 1350 10744 50  0001 C CNN
+F 2 "" H 1350 10750 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 1350 10750 50  0001 C CNN
+	1    1350 10550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_MEC_5G SW4
 U 1 1 61895C37
-P 2350 9400
-F 0 "SW4" H 2350 9685 50  0000 C CNN
-F 1 "SW_MEC_5G" H 2350 9594 50  0000 C CNN
-F 2 "" H 2350 9600 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2350 9600 50  0001 C CNN
-	1    2350 9400
+P 1350 10150
+F 0 "SW4" H 1350 10435 50  0001 C CNN
+F 1 "SW_MEC_5G" H 1350 10344 50  0001 C CNN
+F 2 "" H 1350 10350 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 1350 10350 50  0001 C CNN
+	1    1350 10150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_MEC_5G SW3
 U 1 1 61895262
-P 2350 9000
-F 0 "SW3" H 2350 9285 50  0000 C CNN
-F 1 "SW_MEC_5G" H 2350 9194 50  0000 C CNN
-F 2 "" H 2350 9200 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2350 9200 50  0001 C CNN
-	1    2350 9000
+P 1350 9750
+F 0 "SW3" H 1350 10035 50  0001 C CNN
+F 1 "SW_MEC_5G" H 1350 9944 50  0001 C CNN
+F 2 "" H 1350 9950 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 1350 9950 50  0001 C CNN
+	1    1350 9750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_MEC_5G SW2
 U 1 1 61893D8B
-P 2350 8600
-F 0 "SW2" H 2350 8885 50  0000 C CNN
-F 1 "SW_MEC_5G" H 2350 8794 50  0000 C CNN
-F 2 "" H 2350 8800 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 2350 8800 50  0001 C CNN
-	1    2350 8600
+P 1350 9350
+F 0 "SW2" H 1350 9635 50  0001 C CNN
+F 1 "SW_MEC_5G" H 1350 9544 50  0001 C CNN
+F 2 "" H 1350 9550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 1350 9550 50  0001 C CNN
+	1    1350 9350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11450 7450 11450 7900
-Wire Wire Line
-	11350 7450 11350 7800
-Entry Wire Line
-	13550 7950 13650 7850
-Entry Wire Line
-	13650 7950 13750 7850
-Entry Wire Line
-	13750 7950 13850 7850
-Entry Wire Line
-	13850 7950 13950 7850
-Wire Wire Line
-	13450 7450 13450 7850
-Wire Wire Line
-	13650 7450 13650 7850
-Wire Wire Line
-	13750 7450 13750 7850
-Wire Wire Line
-	13850 7450 13850 7850
-Wire Wire Line
-	13950 7450 13950 7850
-Wire Wire Line
-	13550 7800 14350 7800
-Wire Wire Line
-	13550 7450 13550 7800
-Text Label 11750 7950 1    50   ~ 0
-~SS
-Text Label 11850 7950 1    50   ~ 0
-MOSI
-Text Label 11950 7950 1    50   ~ 0
-MISO
-Text Label 12050 7950 1    50   ~ 0
-SCK
 $Comp
 L FUNG:PORTA U?
 U 1 1 61D98058
-P 1450 3450
-F 0 "U?" H 1828 3250 50  0001 L CNN
-F 1 "PORTA" H 1450 3450 50  0001 C CNN
-F 2 "" H 1450 3450 50  0001 C CNN
-F 3 "" H 1450 3450 50  0001 C CNN
-	1    1450 3450
-	1    0    0    -1  
+P 5800 5750
+F 0 "U?" H 6178 5550 50  0001 L CNN
+F 1 "PORTA" H 5800 5750 50  0001 C CNN
+F 2 "" H 5800 5750 50  0001 C CNN
+F 3 "" H 5800 5750 50  0001 C CNN
+	1    5800 5750
+	0    1    1    0   
 $EndComp
 $Comp
 L FUNG:PORTC U?
 U 1 1 61D9805E
-P 3650 3450
-F 0 "U?" H 4028 3250 50  0001 L CNN
-F 1 "PORTC" H 3650 3450 50  0001 C CNN
-F 2 "" H 3650 3450 50  0001 C CNN
-F 3 "" H 3650 3450 50  0001 C CNN
-	1    3650 3450
-	1    0    0    -1  
+P 5800 6950
+F 0 "U?" H 6178 6750 50  0001 L CNN
+F 1 "PORTC" H 5800 6950 50  0001 C CNN
+F 2 "" H 5800 6950 50  0001 C CNN
+F 3 "" H 5800 6950 50  0001 C CNN
+	1    5800 6950
+	0    1    1    0   
 $EndComp
 Entry Bus Bus
-	2500 4050 2600 4150
+	5200 6400 5100 6500
 Wire Wire Line
-	1450 3800 1450 4050
+	5450 5750 5200 5750
 Wire Wire Line
-	3650 3800 3650 4050
+	5450 6950 5200 6950
 $Comp
 L Graphic:SYM_Arrow_Tiny #SYM?
 U 1 1 61D9806E
-P 1450 4000
-F 0 "#SYM?" H 1450 4060 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 1460 3950 50  0001 C CNN
-F 2 "" H 1450 4000 50  0001 C CNN
-F 3 "~" H 1450 4000 50  0001 C CNN
-	1    1450 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L Graphic:SYM_Arrow_Tiny #SYM?
-U 1 1 61D98074
-P 1450 3850
-F 0 "#SYM?" H 1450 3910 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 1460 3800 50  0001 C CNN
-F 2 "" H 1450 3850 50  0001 C CNN
-F 3 "~" H 1450 3850 50  0001 C CNN
-	1    1450 3850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Graphic:SYM_Arrow_Tiny #SYM?
-U 1 1 61D98086
-P 3650 4000
-F 0 "#SYM?" H 3650 4060 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 3660 3950 50  0001 C CNN
-F 2 "" H 3650 4000 50  0001 C CNN
-F 3 "~" H 3650 4000 50  0001 C CNN
-	1    3650 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L Graphic:SYM_Arrow_Tiny #SYM?
-U 1 1 61D9808C
-P 3650 3850
-F 0 "#SYM?" H 3650 3910 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 3660 3800 50  0001 C CNN
-F 2 "" H 3650 3850 50  0001 C CNN
-F 3 "~" H 3650 3850 50  0001 C CNN
-	1    3650 3850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L FUNG:PORTB U?
-U 1 1 61DE248B
-P 1850 5900
-F 0 "U?" H 2228 5700 50  0001 L CNN
-F 1 "PORTB" H 1850 5900 50  0001 C CNN
-F 2 "" H 1850 5900 50  0001 C CNN
-F 3 "" H 1850 5900 50  0001 C CNN
-	1    1850 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 5800 2050 5950
-$Comp
-L Graphic:SYM_Arrow_Tiny #SYM?
-U 1 1 61DE2493
-P 2050 5900
-F 0 "#SYM?" H 2050 5960 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 2060 5850 50  0001 C CNN
-F 2 "" H 2050 5900 50  0001 C CNN
-F 3 "~" H 2050 5900 50  0001 C CNN
-	1    2050 5900
-	0    1    1    0   
-$EndComp
-$Comp
-L Graphic:SYM_Arrow_Tiny #SYM?
-U 1 1 61DE2499
-P 2050 5850
-F 0 "#SYM?" H 2050 5910 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 2060 5800 50  0001 C CNN
-F 2 "" H 2050 5850 50  0001 C CNN
-F 3 "~" H 2050 5850 50  0001 C CNN
-	1    2050 5850
-	0    -1   -1   0   
-$EndComp
-Entry Bus Bus
-	2600 5700 2700 5800
-$Comp
-L FUNG:CPU U?
-U 1 1 61E21805
-P 2000 4450
-F 0 "U?" H 2278 4250 50  0001 L CNN
-F 1 "CPU" H 2000 4450 50  0001 C CNN
-F 2 "" H 2000 4450 50  0001 C CNN
-F 3 "" H 2000 4450 50  0001 C CNN
-	1    2000 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 4900 2600 4900
-$Comp
-L Graphic:SYM_Arrow_Tiny #SYM?
-U 1 1 61E2180C
-P 2300 4900
-F 0 "#SYM?" H 2300 4960 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 2310 4850 50  0001 C CNN
-F 2 "" H 2300 4900 50  0001 C CNN
-F 3 "~" H 2300 4900 50  0001 C CNN
-	1    2300 4900
+P 5250 5750
+F 0 "#SYM?" H 5250 5810 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 5260 5700 50  0001 C CNN
+F 2 "" H 5250 5750 50  0001 C CNN
+F 3 "~" H 5250 5750 50  0001 C CNN
+	1    5250 5750
 	-1   0    0    1   
 $EndComp
 $Comp
 L Graphic:SYM_Arrow_Tiny #SYM?
-U 1 1 61E2C490
-P 2550 4900
-F 0 "#SYM?" H 2550 4960 50  0001 C CNN
-F 1 "SYM_Arrow_Tiny" H 2560 4850 50  0001 C CNN
-F 2 "" H 2550 4900 50  0001 C CNN
-F 3 "~" H 2550 4900 50  0001 C CNN
-	1    2550 4900
+U 1 1 61D98074
+P 5400 5750
+F 0 "#SYM?" H 5400 5810 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 5410 5700 50  0001 C CNN
+F 2 "" H 5400 5750 50  0001 C CNN
+F 3 "~" H 5400 5750 50  0001 C CNN
+	1    5400 5750
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	2600 4150 2600 5700
-Text Label 1100 3450 1    50   ~ 0
-PA0
-Text Label 1200 3450 1    50   ~ 0
-PA1
-Text Label 1300 3450 1    50   ~ 0
-PA2
-Text Label 1400 3450 1    50   ~ 0
-PA3
-Text Label 1500 3450 1    50   ~ 0
-PA4
-Text Label 1600 3450 1    50   ~ 0
-PA5
-Text Label 1700 3450 1    50   ~ 0
-PA6
-Text Label 1800 3450 1    50   ~ 0
-PA7
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61D98086
+P 5250 6950
+F 0 "#SYM?" H 5250 7010 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 5260 6900 50  0001 C CNN
+F 2 "" H 5250 6950 50  0001 C CNN
+F 3 "~" H 5250 6950 50  0001 C CNN
+	1    5250 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61D9808C
+P 5400 6950
+F 0 "#SYM?" H 5400 7010 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 5410 6900 50  0001 C CNN
+F 2 "" H 5400 6950 50  0001 C CNN
+F 3 "~" H 5400 6950 50  0001 C CNN
+	1    5400 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUNG:PORTB U?
+U 1 1 61DE248B
+P 3350 5750
+F 0 "U?" H 3728 5550 50  0001 L CNN
+F 1 "PORTB" H 3350 5750 50  0001 C CNN
+F 2 "" H 3350 5750 50  0001 C CNN
+F 3 "" H 3350 5750 50  0001 C CNN
+	1    3350 5750
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	3300 3250 3300 3500
-Wire Wire Line
-	3400 3500 3400 3250
-Wire Wire Line
-	3500 3500 3500 3250
-Wire Wire Line
-	3600 3500 3600 3250
-Wire Wire Line
-	3700 3500 3700 3250
-Wire Wire Line
-	3800 3500 3800 3250
-Wire Wire Line
-	3900 3500 3900 3250
-Wire Wire Line
-	4000 3500 4000 3250
-Text Label 3300 3450 1    50   ~ 0
-PC0
-Text Label 3400 3450 1    50   ~ 0
-PC1
-Text Label 3500 3450 1    50   ~ 0
-PC2
-Text Label 3600 3450 1    50   ~ 0
-PC3
-Text Label 3700 3450 1    50   ~ 0
-PC4
-Text Label 3800 3450 1    50   ~ 0
-PC5
-Text Label 3900 3450 1    50   ~ 0
-PC6
-Text Label 4000 3450 1    50   ~ 0
-PC7
-Entry Wire Line
-	1100 3250 1200 3150
-Entry Wire Line
-	1200 3250 1300 3150
-Entry Wire Line
-	1300 3250 1400 3150
-Entry Wire Line
-	1400 3250 1500 3150
-Entry Wire Line
-	1500 3250 1600 3150
-Entry Wire Line
-	1600 3250 1700 3150
-Entry Wire Line
-	1700 3250 1800 3150
-Entry Wire Line
-	1800 3250 1900 3150
-Entry Wire Line
-	3300 3250 3400 3150
-Entry Wire Line
-	3400 3250 3500 3150
-Entry Wire Line
-	3500 3250 3600 3150
-Entry Wire Line
-	3600 3250 3700 3150
-Entry Wire Line
-	3700 3250 3800 3150
-Entry Wire Line
-	3800 3250 3900 3150
-Entry Wire Line
-	3900 3250 4000 3150
-Entry Wire Line
-	4000 3250 4100 3150
+	3450 5950 3300 5950
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61DE2493
+P 3350 5950
+F 0 "#SYM?" H 3350 6010 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 3360 5900 50  0001 C CNN
+F 2 "" H 3350 5950 50  0001 C CNN
+F 3 "~" H 3350 5950 50  0001 C CNN
+	1    3350 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61DE2499
+P 3400 5950
+F 0 "#SYM?" H 3400 6010 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 3410 5900 50  0001 C CNN
+F 2 "" H 3400 5950 50  0001 C CNN
+F 3 "~" H 3400 5950 50  0001 C CNN
+	1    3400 5950
+	1    0    0    -1  
+$EndComp
 Entry Bus Bus
-	4150 3150 4250 3250
+	3550 6500 3450 6600
+$Comp
+L FUNG:CPU U?
+U 1 1 61E21805
+P 4800 5900
+F 0 "U?" H 5078 5700 50  0001 L CNN
+F 1 "CPU" H 4800 5900 50  0001 C CNN
+F 2 "" H 4800 5900 50  0001 C CNN
+F 3 "" H 4800 5900 50  0001 C CNN
+	1    4800 5900
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	1100 3250 1100 3500
-Wire Wire Line
-	1200 3250 1200 3500
-Wire Wire Line
-	1300 3250 1300 3500
-Wire Wire Line
-	1400 3250 1400 3500
-Wire Wire Line
-	1500 3250 1500 3500
-Wire Wire Line
-	1600 3250 1600 3500
-Wire Wire Line
-	1700 3250 1700 3500
-Wire Wire Line
-	1800 3250 1800 3500
-Text Label 1500 6450 1    50   ~ 0
-PB0
-Text Label 1600 6450 1    50   ~ 0
-PB1
-Text Label 1700 6450 1    50   ~ 0
-PB2
-Text Label 1800 6450 1    50   ~ 0
-PB3
-Text Label 1900 6450 1    50   ~ 0
-PB4
-Wire Wire Line
-	1800 6250 1800 6500
-Wire Wire Line
-	11550 7600 11550 8000
-Text Label 2200 6450 1    50   ~ 0
-PB7
-Text Label 2100 6450 1    50   ~ 0
-PB6
-Text Label 2000 6450 1    50   ~ 0
-PB5
-Wire Wire Line
-	1900 6250 1900 6500
-Wire Wire Line
-	2000 6250 2000 6500
-Wire Wire Line
-	2100 6250 2100 6500
-Wire Wire Line
-	2200 6250 2200 6500
-Wire Wire Line
-	1500 6250 1500 6500
-Connection ~ 11650 7500
-Wire Wire Line
-	11650 7500 11650 8100
-Entry Wire Line
-	11950 8200 12050 8100
-Wire Wire Line
-	12050 7450 12050 8100
-Wire Wire Line
-	11950 7450 11950 8100
-Wire Wire Line
-	11850 7450 11850 8100
-Wire Wire Line
-	11750 7450 11750 8100
-Entry Wire Line
-	11850 8200 11950 8100
-Entry Wire Line
-	11750 8200 11850 8100
-Entry Wire Line
-	11650 8200 11750 8100
+	4350 6150 4350 6500
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61E2180C
+P 4350 6200
+F 0 "#SYM?" H 4350 6260 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 4360 6150 50  0001 C CNN
+F 2 "" H 4350 6200 50  0001 C CNN
+F 3 "~" H 4350 6200 50  0001 C CNN
+	1    4350 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61E2C490
+P 4350 6450
+F 0 "#SYM?" H 4350 6510 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 4360 6400 50  0001 C CNN
+F 2 "" H 4350 6450 50  0001 C CNN
+F 3 "~" H 4350 6450 50  0001 C CNN
+	1    4350 6450
+	0    1    1    0   
+$EndComp
+Wire Bus Line
+	5100 6500 3550 6500
 $Comp
 L FUNG:prog U?
 U 1 1 618AFF44
-P 8100 6600
-F 0 "U?" H 8428 6246 50  0001 L CNN
-F 1 "prog" H 8428 6200 50  0001 L CNN
-F 2 "" H 8100 6600 50  0001 C CNN
-F 3 "" H 8100 6600 50  0001 C CNN
-	1    8100 6600
+P 12950 7850
+F 0 "U?" H 13278 7496 50  0001 L CNN
+F 1 "prog" H 13278 7450 50  0001 L CNN
+F 2 "" H 12950 7850 50  0001 C CNN
+F 3 "" H 12950 7850 50  0001 C CNN
+	1    12950 7850
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	4250 3250 4250 10000
-Wire Bus Line
-	4250 10000 7050 10000
-Wire Bus Line
-	7050 10000 7050 1700
-Wire Bus Line
-	7050 1700 10050 1700
-Wire Bus Line
-	10050 1700 10050 8400
-Wire Bus Line
-	10050 8400 14450 8400
-Connection ~ 10050 1700
-Wire Bus Line
-	10050 1700 14200 1700
+$Comp
+L kur_func:Driver_TM1637 U?
+U 1 1 61A782A3
+P 6950 2600
+F 0 "U?" H 6983 3365 50  0001 C CNN
+F 1 "Driver_TM1637" H 6983 3274 50  0001 C CNN
+F 2 "" H 6600 3500 50  0001 C CNN
+F 3 "" H 6600 3500 50  0001 C CNN
+	1    6950 2600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7150 5050 7500 5050
+	15000 8000 15300 8000
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61B5823B
+P 15350 8000
+F 0 "#SYM?" H 15350 8060 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 15360 7950 50  0001 C CNN
+F 2 "" H 15350 8000 50  0001 C CNN
+F 3 "~" H 15350 8000 50  0001 C CNN
+	1    15350 8000
+	1    0    0    -1  
+$EndComp
+Text Notes 15050 7950 0    50   ~ 0
+к ПЭВМ
 Wire Wire Line
-	7150 5150 7500 5150
+	11800 7450 11800 7900
 Wire Wire Line
-	7150 5250 7500 5250
+	11800 7900 8900 7900
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61B691CF
+P 11800 7500
+F 0 "#SYM?" H 11800 7560 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 11810 7450 50  0001 C CNN
+F 2 "" H 11800 7500 50  0001 C CNN
+F 3 "~" H 11800 7500 50  0001 C CNN
+	1    11800 7500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61B69F3B
+P 8950 7900
+F 0 "#SYM?" H 8950 7960 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 8960 7850 50  0001 C CNN
+F 2 "" H 8950 7900 50  0001 C CNN
+F 3 "~" H 8950 7900 50  0001 C CNN
+	1    8950 7900
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	7150 5350 7500 5350
+	5750 5750 6850 5750
+Wire Wire Line
+	6850 5750 6850 7300
+Wire Wire Line
+	6850 7300 7800 7300
+Wire Wire Line
+	5750 6950 6600 6950
+Wire Wire Line
+	6600 6950 6600 8300
+Wire Wire Line
+	6600 8300 7800 8300
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61B72F49
+P 7750 8300
+F 0 "#SYM?" H 7750 8360 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 7760 8250 50  0001 C CNN
+F 2 "" H 7750 8300 50  0001 C CNN
+F 3 "~" H 7750 8300 50  0001 C CNN
+	1    7750 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61B73880
+P 7750 7300
+F 0 "#SYM?" H 7750 7360 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 7760 7250 50  0001 C CNN
+F 2 "" H 7750 7300 50  0001 C CNN
+F 3 "~" H 7750 7300 50  0001 C CNN
+	1    7750 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61B742AA
+P 5800 5750
+F 0 "#SYM?" H 5800 5810 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 5810 5700 50  0001 C CNN
+F 2 "" H 5800 5750 50  0001 C CNN
+F 3 "~" H 5800 5750 50  0001 C CNN
+	1    5800 5750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61B74A9C
+P 5800 6950
+F 0 "#SYM?" H 5800 7010 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 5810 6900 50  0001 C CNN
+F 2 "" H 5800 6950 50  0001 C CNN
+F 3 "~" H 5800 6950 50  0001 C CNN
+	1    5800 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1550 9000 2000 9000
+Wire Wire Line
+	2000 9000 2000 5450
+Wire Wire Line
+	2000 5450 3000 5450
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61B9428D
+P 2950 5450
+F 0 "#SYM?" H 2950 5510 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 2960 5400 50  0001 C CNN
+F 2 "" H 2950 5450 50  0001 C CNN
+F 3 "~" H 2950 5450 50  0001 C CNN
+	1    2950 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 9350 2100 9350
+Wire Wire Line
+	2100 9350 2100 5550
+Wire Wire Line
+	2100 5550 3000 5550
+Wire Wire Line
+	1550 9750 2200 9750
+Wire Wire Line
+	2200 9750 2200 5650
+Wire Wire Line
+	2200 5650 3000 5650
+Wire Wire Line
+	1550 10150 2300 10150
+Wire Wire Line
+	2300 10150 2300 5750
+Wire Wire Line
+	2300 5750 3000 5750
+Wire Wire Line
+	1550 10550 2400 10550
+Wire Wire Line
+	2400 10550 2400 5850
+Wire Wire Line
+	2400 5850 3000 5850
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61B9DC31
+P 2950 5550
+F 0 "#SYM?" H 2950 5610 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 2960 5500 50  0001 C CNN
+F 2 "" H 2950 5550 50  0001 C CNN
+F 3 "~" H 2950 5550 50  0001 C CNN
+	1    2950 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61B9E5A5
+P 2950 5650
+F 0 "#SYM?" H 2950 5710 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 2960 5600 50  0001 C CNN
+F 2 "" H 2950 5650 50  0001 C CNN
+F 3 "~" H 2950 5650 50  0001 C CNN
+	1    2950 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61B9EED7
+P 2950 5750
+F 0 "#SYM?" H 2950 5810 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 2960 5700 50  0001 C CNN
+F 2 "" H 2950 5750 50  0001 C CNN
+F 3 "~" H 2950 5750 50  0001 C CNN
+	1    2950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61B9F7F0
+P 2950 5850
+F 0 "#SYM?" H 2950 5910 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 2960 5800 50  0001 C CNN
+F 2 "" H 2950 5850 50  0001 C CNN
+F 3 "~" H 2950 5850 50  0001 C CNN
+	1    2950 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUNG:CA56-12CGKWA U?
+U 1 1 61BACBF8
+P 8850 2600
+F 0 "U?" H 9880 2600 50  0001 L CNN
+F 1 "CA56-12CGKWA" H 9880 2555 50  0001 L CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 8850 2000 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12CGKWA(Ver.9A).pdf" H 8420 2630 50  0001 C CNN
+	1    8850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61BB0E0B
+P 7800 2600
+F 0 "#SYM?" H 7800 2660 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 7810 2550 50  0001 C CNN
+F 2 "" H 7800 2600 50  0001 C CNN
+F 3 "~" H 7800 2600 50  0001 C CNN
+	1    7800 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2600 7750 2600
+Wire Wire Line
+	12500 8250 11950 8250
+Wire Wire Line
+	11950 8250 11950 7450
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61BC1938
+P 11950 7500
+F 0 "#SYM?" H 11950 7560 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 11960 7450 50  0001 C CNN
+F 2 "" H 11950 7500 50  0001 C CNN
+F 3 "~" H 11950 7500 50  0001 C CNN
+	1    11950 7500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11750 2500 11750 1950
+Wire Wire Line
+	11750 1950 13850 1950
+Wire Wire Line
+	13850 1950 13850 1250
+Wire Wire Line
+	13850 1250 13700 1250
+Wire Wire Line
+	14000 2500 14000 750 
+Wire Wire Line
+	14000 750  12950 750 
+Wire Wire Line
+	12950 750  12950 1050
+Wire Wire Line
+	12950 1050 13200 1050
+Wire Wire Line
+	14150 2500 14150 550 
+Wire Wire Line
+	14150 550  12300 550 
+Wire Wire Line
+	12300 550  12300 1200
+Wire Wire Line
+	12650 2500 12650 1650
+Wire Wire Line
+	12650 1650 11550 1650
+Wire Wire Line
+	11550 1650 11550 1400
+Wire Wire Line
+	11550 1400 11700 1400
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61BDC3D9
+P 11650 1400
+F 0 "#SYM?" H 11650 1460 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 11660 1350 50  0001 C CNN
+F 2 "" H 11650 1400 50  0001 C CNN
+F 3 "~" H 11650 1400 50  0001 C CNN
+	1    11650 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61BDCE64
+P 11650 1300
+F 0 "#SYM?" H 11650 1360 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 11660 1250 50  0001 C CNN
+F 2 "" H 11650 1300 50  0001 C CNN
+F 3 "~" H 11650 1300 50  0001 C CNN
+	1    11650 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61BDE88F
+P 11750 2450
+F 0 "#SYM?" H 11750 2510 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 11760 2400 50  0001 C CNN
+F 2 "" H 11750 2450 50  0001 C CNN
+F 3 "~" H 11750 2450 50  0001 C CNN
+	1    11750 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11300 1300 11700 1300
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61BE9DF5
+P 13150 1050
+F 0 "#SYM?" H 13150 1110 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 13160 1000 50  0001 C CNN
+F 2 "" H 13150 1050 50  0001 C CNN
+F 3 "~" H 13150 1050 50  0001 C CNN
+	1    13150 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61BEA78B
+P 13750 1250
+F 0 "#SYM?" H 13750 1310 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 13760 1200 50  0001 C CNN
+F 2 "" H 13750 1250 50  0001 C CNN
+F 3 "~" H 13750 1250 50  0001 C CNN
+	1    13750 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12300 1200 12100 1200
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61BF1C20
+P 12150 1200
+F 0 "#SYM?" H 12150 1260 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 12160 1150 50  0001 C CNN
+F 2 "" H 12150 1200 50  0001 C CNN
+F 3 "~" H 12150 1200 50  0001 C CNN
+	1    12150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61BF27D2
+P 14150 2450
+F 0 "#SYM?" H 14150 2510 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 14160 2400 50  0001 C CNN
+F 2 "" H 14150 2450 50  0001 C CNN
+F 3 "~" H 14150 2450 50  0001 C CNN
+	1    14150 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11300 1300 11300 2500
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61BF9B82
+P 11300 2450
+F 0 "#SYM?" H 11300 2510 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 11310 2400 50  0001 C CNN
+F 2 "" H 11300 2450 50  0001 C CNN
+F 3 "~" H 11300 2450 50  0001 C CNN
+	1    11300 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61BFA882
+P 12650 2450
+F 0 "#SYM?" H 12650 2510 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 12660 2400 50  0001 C CNN
+F 2 "" H 12650 2450 50  0001 C CNN
+F 3 "~" H 12650 2450 50  0001 C CNN
+	1    12650 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61BFB4C0
+P 14000 2450
+F 0 "#SYM?" H 14000 2510 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 14010 2400 50  0001 C CNN
+F 2 "" H 14000 2450 50  0001 C CNN
+F 3 "~" H 14000 2450 50  0001 C CNN
+	1    14000 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11700 7450 11700 7800
+Wire Wire Line
+	11700 7800 9250 7800
+Wire Wire Line
+	9250 7800 9250 3550
+Wire Wire Line
+	9250 3550 5950 3550
+Wire Wire Line
+	5950 3550 5950 2600
+Wire Wire Line
+	5950 2600 6300 2600
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61C00B9B
+P 6250 2600
+F 0 "#SYM?" H 6250 2660 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 6260 2550 50  0001 C CNN
+F 2 "" H 6250 2600 50  0001 C CNN
+F 3 "~" H 6250 2600 50  0001 C CNN
+	1    6250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61C0186B
+P 11700 7500
+F 0 "#SYM?" H 11700 7560 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 11710 7450 50  0001 C CNN
+F 2 "" H 11700 7500 50  0001 C CNN
+F 3 "~" H 11700 7500 50  0001 C CNN
+	1    11700 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61C027B9
+P 12450 8250
+F 0 "#SYM?" H 12450 8310 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 12460 8200 50  0001 C CNN
+F 2 "" H 12450 8250 50  0001 C CNN
+F 3 "~" H 12450 8250 50  0001 C CNN
+	1    12450 8250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13800 7450 13800 8000
+Wire Wire Line
+	13800 8000 14100 8000
 Wire Bus Line
-	1250 5800 3950 5800
+	3450 5150 3450 7850
 Wire Bus Line
-	1150 4050 3900 4050
+	5200 5050 5200 7800
 Wire Bus Line
 	11400 7000 14100 7000
 Wire Bus Line
 	11250 3050 14000 3050
 Wire Wire Line
-	2050 8150 2050 9950
-Wire Bus Line
-	1050 3150 4200 3150
-Entry Wire Line
-	7050 4950 7150 5050
-Entry Wire Line
-	7050 5050 7150 5150
-Entry Wire Line
-	7050 5150 7150 5250
-Entry Wire Line
-	7050 5250 7150 5350
+	1050 8900 1050 10700
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61C0FAB1
+P 14050 8000
+F 0 "#SYM?" H 14050 8060 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 14060 7950 50  0001 C CNN
+F 2 "" H 14050 8000 50  0001 C CNN
+F 3 "~" H 14050 8000 50  0001 C CNN
+	1    14050 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Arrow_Tiny #SYM?
+U 1 1 61C104AF
+P 13800 7500
+F 0 "#SYM?" H 13800 7560 50  0001 C CNN
+F 1 "SYM_Arrow_Tiny" H 13810 7450 50  0001 C CNN
+F 2 "" H 13800 7500 50  0001 C CNN
+F 3 "~" H 13800 7500 50  0001 C CNN
+	1    13800 7500
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
