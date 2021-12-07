@@ -14,108 +14,18 @@ Comment3 "В.Я. Хартов"
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega8515L-8JU U?
-U 1 1 61892ED2
-P 4300 4750
-F 0 "U?" H 4300 6931 50  0000 C CNN
-F 1 "ATmega8515L-8JU" H 4300 6840 50  0000 C CNN
-F 2 "Package_LCC:PLCC-44" H 4300 4750 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2512.pdf" H 4300 4750 50  0001 C CNN
-	1    4300 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MCU_Microchip_ATmega:ATmega8515L-8JU U?
-U 1 1 61894F8C
-P 11900 4600
-F 0 "U?" H 11900 6781 50  0000 C CNN
-F 1 "ATmega8515L-8JU" H 11900 6690 50  0000 C CNN
-F 2 "Package_LCC:PLCC-44" H 11900 4600 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2512.pdf" H 11900 4600 50  0001 C CNN
-	1    11900 4600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Interface_Expansion:MCP23S17_SO U?
+L prinsip-rescue:MCP23S17_SO-Interface_Expansion U?
 U 1 1 618932CE
-P 8300 3850
-F 0 "U?" H 8300 5131 50  0000 C CNN
-F 1 "MCP23S17_SO" H 8300 5040 50  0000 C CNN
-F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 8500 2850 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 8500 2750 50  0001 L CNN
-	1    8300 3850
+P 8250 2750
+F 0 "U?" H 8250 4031 50  0000 C CNN
+F 1 "MCP23S17_SO" H 8250 3940 50  0000 C CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 8450 1750 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 8450 1650 50  0001 L CNN
+	1    8250 2750
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4900 3050 7600 3050
-Wire Wire Line
-	7600 3150 4900 3150
-Wire Wire Line
-	4900 3250 7600 3250
-Wire Wire Line
-	7600 3350 4900 3350
-Wire Wire Line
-	4900 3450 7600 3450
-Wire Wire Line
-	7600 3550 4900 3550
-Wire Wire Line
-	4900 3650 7600 3650
-Wire Wire Line
-	7600 3750 4900 3750
-Entry Wire Line
-	4900 4850 5000 4950
-Entry Wire Line
-	4900 4950 5000 5050
-Entry Wire Line
-	4900 5050 5000 5150
-Entry Wire Line
-	4900 5150 5000 5250
-Entry Wire Line
-	4900 5250 5000 5350
-Entry Wire Line
-	4900 5350 5000 5450
-Entry Wire Line
-	4900 5450 5000 5550
-Entry Wire Line
-	4900 5550 5000 5650
-Wire Bus Line
-	5000 4750 7500 4750
-Entry Wire Line
-	7500 3850 7600 3950
-Entry Wire Line
-	7500 3950 7600 4050
-Entry Wire Line
-	7500 4050 7600 4150
-Entry Wire Line
-	7500 4150 7600 4250
-Entry Wire Line
-	7500 4250 7600 4350
-Entry Wire Line
-	7500 4350 7600 4450
-Entry Wire Line
-	7500 4450 7600 4550
-Entry Wire Line
-	7500 4550 7600 4650
-Entry Wire Line
-	11200 4400 11300 4500
-Entry Wire Line
-	11200 4300 11300 4400
-Entry Wire Line
-	11200 4200 11300 4300
-Entry Wire Line
-	11200 4100 11300 4200
-Wire Bus Line
-	9100 4100 11200 4100
-Entry Wire Line
-	9000 3050 9100 3150
-Entry Wire Line
-	9000 3150 9100 3250
-Entry Wire Line
-	9000 3250 9100 3350
-Entry Wire Line
-	9000 3350 9100 3450
 $Comp
-L Switch:SW_MEC_5G SW1
+L prinsip-rescue:SW_MEC_5G-Switch SW1
 U 1 1 618A64A7
 P 7600 8950
 F 0 "SW1" H 7600 9235 50  0000 C CNN
@@ -126,7 +36,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L prinsip-rescue:Earth-power #PWR?
 U 1 1 618ACA20
 P 7300 10500
 F 0 "#PWR?" H 7300 10250 50  0001 C CNN
@@ -137,7 +47,7 @@ F 3 "~" H 7300 10500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW2
+L prinsip-rescue:SW_MEC_5G-Switch SW2
 U 1 1 618AE5B4
 P 7600 9300
 F 0 "SW2" H 7600 9585 50  0000 C CNN
@@ -148,7 +58,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW3
+L prinsip-rescue:SW_MEC_5G-Switch SW3
 U 1 1 618AFC40
 P 7600 9650
 F 0 "SW3" H 7600 9935 50  0000 C CNN
@@ -159,7 +69,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW4
+L prinsip-rescue:SW_MEC_5G-Switch SW4
 U 1 1 618B119B
 P 7600 10000
 F 0 "SW4" H 7600 10285 50  0000 C CNN
@@ -170,7 +80,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW5
+L prinsip-rescue:SW_MEC_5G-Switch SW5
 U 1 1 618B1C38
 P 7600 10350
 F 0 "SW5" H 7600 10635 50  0000 C CNN
@@ -205,301 +115,48 @@ Connection ~ 7300 10350
 Wire Wire Line
 	7300 10350 7300 10500
 $Comp
-L 74xx:74LS373 U?
+L prinsip-rescue:74LS373-74xx U?
 U 1 1 618B9D34
-P 13450 1550
-F 0 "U?" H 13450 2531 50  0000 C CNN
-F 1 "74LS373" H 13450 2440 50  0000 C CNN
-F 2 "" H 13450 1550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 13450 1550 50  0001 C CNN
-	1    13450 1550
+P 13500 3400
+F 0 "U?" H 13500 4381 50  0000 C CNN
+F 1 "74LS373" H 13500 4290 50  0000 C CNN
+F 2 "" H 13500 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 13500 3400 50  0001 C CNN
+	1    13500 3400
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	11200 2800 11300 2900
-Entry Wire Line
-	11200 2900 11300 3000
-Entry Wire Line
-	11200 3000 11300 3100
-Entry Wire Line
-	11200 3100 11300 3200
-Entry Wire Line
-	11200 3200 11300 3300
-Entry Wire Line
-	11200 3300 11300 3400
-Entry Wire Line
-	11200 3400 11300 3500
-Entry Wire Line
-	11200 3500 11300 3600
-Entry Wire Line
-	11200 950  11300 1050
-Entry Wire Line
-	11200 1050 11300 1150
-Entry Wire Line
-	11200 1150 11300 1250
-Entry Wire Line
-	11200 1250 11300 1350
-Entry Wire Line
-	11200 1350 11300 1450
-Entry Wire Line
-	11200 1450 11300 1550
-Entry Wire Line
-	11200 1550 11300 1650
-Entry Wire Line
-	11200 1650 11300 1750
 $Comp
-L power:Earth #PWR?
-U 1 1 618C2DCD
-P 12950 2050
-F 0 "#PWR?" H 12950 1800 50  0001 C CNN
-F 1 "Earth" H 12950 1900 50  0001 C CNN
-F 2 "" H 12950 2050 50  0001 C CNN
-F 3 "~" H 12950 2050 50  0001 C CNN
-	1    12950 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12950 1950 12750 1950
-Wire Wire Line
-	12750 1950 12750 5700
-Wire Wire Line
-	12750 5700 12500 5700
-$Comp
-L Interface_UART:MAX232 U?
+L prinsip-rescue:MAX232-Interface_UART U?
 U 1 1 618944AD
-P 14700 7650
-F 0 "U?" H 14700 9031 50  0000 C CNN
-F 1 "MAX232" H 14700 8940 50  0000 C CNN
-F 2 "" H 14750 6600 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 14700 7750 50  0001 C CNN
-	1    14700 7650
+P 8250 5350
+F 0 "U?" H 8250 6731 50  0000 C CNN
+F 1 "MAX232" H 8250 6640 50  0000 C CNN
+F 2 "" H 8300 4300 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 8250 5450 50  0001 C CNN
+	1    8250 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L prinsip-rescue:6264-custom U?
 U 1 1 6189600C
-P 15300 1700
-F 0 "U?" H 15300 1815 50  0000 C CNN
-F 1 "6264" H 15300 1724 50  0000 C CNN
-F 2 "" H 15300 1700 50  0001 C CNN
-F 3 "" H 15300 1700 50  0001 C CNN
-	1    15300 1700
+P 15150 2750
+F 0 "U?" H 15150 2865 50  0000 C CNN
+F 1 "6264" H 15150 2774 50  0000 C CNN
+F 2 "" H 15150 2750 50  0001 C CNN
+F 3 "" H 15150 2750 50  0001 C CNN
+	1    15150 2750
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	13950 1050 14050 1150
-Entry Wire Line
-	13950 1150 14050 1250
-Entry Wire Line
-	13950 1250 14050 1350
-Entry Wire Line
-	13950 1350 14050 1450
-Entry Wire Line
-	13950 1450 14050 1550
-Entry Wire Line
-	13950 1550 14050 1650
-Entry Wire Line
-	13950 1650 14050 1750
-Entry Wire Line
-	13950 1750 14050 1850
 Entry Wire Line
 	19000 -1200 19100 -1100
 Entry Wire Line
 	20150 -600 20250 -500
-Wire Wire Line
-	10550 3800 11300 3800
-Wire Wire Line
-	14800 2150 14150 2150
-Wire Wire Line
-	14150 2150 14150 5600
-Wire Wire Line
-	14150 5600 13100 5600
-Wire Wire Line
-	13100 5600 13100 6650
-Wire Wire Line
-	13100 6650 11200 6650
-Wire Wire Line
-	11200 6200 11300 6200
-Wire Wire Line
-	11300 6300 11300 6750
-Wire Wire Line
-	11300 6750 13200 6750
-Wire Wire Line
-	13200 5700 14250 5700
-Wire Wire Line
-	14250 5700 14250 2250
-Wire Wire Line
-	14250 2250 14800 2250
-$Comp
-L power:Earth #PWR?
-U 1 1 618C4CDE
-P 14800 2050
-F 0 "#PWR?" H 14800 1800 50  0001 C CNN
-F 1 "Earth" H 14800 1900 50  0001 C CNN
-F 2 "" H 14800 2050 50  0001 C CNN
-F 3 "~" H 14800 2050 50  0001 C CNN
-	1    14800 2050
-	0    1    1    0   
-$EndComp
-Wire Bus Line
-	15800 1850 15800 400 
-Entry Wire Line
-	11200 4600 11300 4700
-Entry Wire Line
-	11200 4700 11300 4800
-Entry Wire Line
-	11200 4800 11300 4900
-Entry Wire Line
-	11200 4900 11300 5000
-Entry Wire Line
-	11200 5000 11300 5100
-Entry Wire Line
-	11200 5100 11300 5200
-Entry Wire Line
-	11200 5200 11300 5300
-Entry Wire Line
-	11200 5300 11300 5400
-Entry Bus Bus
-	11100 4900 11200 5000
-Wire Wire Line
-	11200 6650 11200 6200
-Wire Wire Line
-	13200 6750 13200 5700
 Text Notes 4500 8400 0    118  ~ 0
 Пульт оператора
-Wire Notes Line
-	3050 7000 5350 7000
-Wire Notes Line
-	5350 7000 5350 2250
-Wire Notes Line
-	5350 2250 3050 2250
-Wire Notes Line
-	3050 2250 3050 7000
 Text Notes 3250 2150 0    197  ~ 0
 Источник
-Wire Wire Line
-	11300 1750 12950 1750
-Wire Wire Line
-	11300 1050 12950 1050
-Wire Wire Line
-	11300 1150 12950 1150
-Wire Wire Line
-	11300 1250 12950 1250
-Wire Wire Line
-	11300 1350 12950 1350
-Wire Wire Line
-	11300 1450 12950 1450
-Wire Wire Line
-	11300 1550 12950 1550
-Wire Wire Line
-	11300 1650 12950 1650
-Wire Bus Line
-	11200 400  15800 400 
-Wire Wire Line
-	11300 4000 11000 4000
-Wire Wire Line
-	11000 4000 11000 2300
-Wire Wire Line
-	11000 2300 5600 2300
-Wire Wire Line
-	5600 2300 5600 4150
-Wire Wire Line
-	5600 4150 4900 4150
-Wire Wire Line
-	11300 4100 11250 4100
-Wire Wire Line
-	11250 4100 11250 3650
-Wire Wire Line
-	11250 3650 10850 3650
-Wire Wire Line
-	10850 3650 10850 2150
-Wire Wire Line
-	10850 2150 5500 2150
-Wire Wire Line
-	5500 2150 5500 4050
-Wire Wire Line
-	5500 4050 4900 4050
-Wire Wire Line
-	12500 5800 12750 5800
-Wire Wire Line
-	12750 5800 12750 7900
-Wire Wire Line
-	12750 7900 5650 7900
-Wire Wire Line
-	5650 7900 5650 4250
-Wire Wire Line
-	5650 4250 4900 4250
-Wire Bus Line
-	11100 4900 11100 7200
-Wire Bus Line
-	11100 7200 13550 7200
-Wire Bus Line
-	13550 7200 13550 2700
-Wire Bus Line
-	13550 2700 14000 2700
-Wire Bus Line
-	14000 2700 14000 2000
-Wire Bus Line
-	14000 2000 14500 2000
-Entry Bus Bus
-	14350 1850 14450 1950
-Entry Bus Bus
-	14400 1900 14500 2000
 $Comp
-L Display_Character:CA56-12CGKWA U?
-U 1 1 61AA78F0
-P 5400 9900
-F 0 "U?" H 5400 10567 50  0000 C CNN
-F 1 "CA56-12CGKWA" H 5400 10476 50  0000 C CNN
-F 2 "Display_7Segment:CA56-12CGKWA" H 5400 9300 50  0001 C CNN
-F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12CGKWA(Ver.9A).pdf" H 4970 9930 50  0001 C CNN
-	1    5400 9900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 9600 4300 9600
-Wire Wire Line
-	4300 9700 4050 9700
-Wire Wire Line
-	4050 9800 4300 9800
-Wire Wire Line
-	4300 9900 4050 9900
-Wire Wire Line
-	4050 10000 4300 10000
-Wire Wire Line
-	4300 10100 4050 10100
-Wire Wire Line
-	4050 10200 4300 10200
-Wire Wire Line
-	4300 10300 4050 10300
-Wire Wire Line
-	4050 9200 6850 9200
-Wire Wire Line
-	6850 9200 6850 10300
-Wire Wire Line
-	6850 10300 6500 10300
-Wire Wire Line
-	6500 10200 6750 10200
-Wire Wire Line
-	6750 10200 6750 9100
-Wire Wire Line
-	6750 9100 4050 9100
-Wire Wire Line
-	4050 9000 6650 9000
-Wire Wire Line
-	6650 9000 6650 10100
-Wire Wire Line
-	6650 10100 6500 10100
-Wire Wire Line
-	6500 10000 6550 10000
-Wire Wire Line
-	6550 10000 6550 8900
-Wire Wire Line
-	6550 8900 4050 8900
-Wire Wire Line
-	1950 1450 1950 8900
-$Comp
-L TM1637:TM1637 U?
+L prinsip-rescue:TM1637-TM1637 U?
 U 1 1 61AB82C7
 P 3350 9600
 F 0 "U?" H 3350 10767 50  0000 C CNN
@@ -513,14 +170,6 @@ F 7 "v2.5" H 3350 9600 50  0001 L BNN "PARTREV"
 	1    3350 9600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 8900 2650 8900
-Wire Wire Line
-	2650 9100 1750 9100
-Wire Wire Line
-	1750 9100 1750 1300
-Wire Wire Line
-	1750 1300 10550 1300
 Wire Notes Line
 	2350 8200 2350 11100
 Wire Notes Line
@@ -528,80 +177,790 @@ Wire Notes Line
 Wire Notes Line
 	2350 11100 8050 11100
 Wire Notes Line
-	2350 8200 8050 8200
-Wire Wire Line
-	11300 5600 8350 5600
-Wire Wire Line
-	8350 5600 8350 8950
-Wire Wire Line
-	8350 8950 7800 8950
-Wire Wire Line
-	11300 5800 8450 5800
-Wire Wire Line
-	8450 5800 8450 9300
-Wire Wire Line
-	8450 9300 7800 9300
-Wire Wire Line
-	11300 5900 8550 5900
-Wire Wire Line
-	8550 5900 8550 9650
-Wire Wire Line
-	8550 9650 7800 9650
-Wire Wire Line
-	11300 6000 8650 6000
-Wire Wire Line
-	8650 6000 8650 10000
-Wire Wire Line
-	8650 10000 7800 10000
-Wire Wire Line
-	11300 6100 8750 6100
-Wire Wire Line
-	8750 6100 8750 10350
-Wire Wire Line
-	8750 10350 7800 10350
-Wire Wire Line
-	11300 5700 10700 5700
-Wire Wire Line
-	10700 5700 10700 7750
-Wire Wire Line
-	10700 7750 13900 7750
-Wire Wire Line
-	3550 3050 3700 3050
-Wire Wire Line
-	3550 2950 3550 3050
+	2400 8200 8100 8200
 $Comp
-L power:VCC #PWR?
-U 1 1 61B812C7
-P 3550 2950
-F 0 "#PWR?" H 3550 2800 50  0001 C CNN
-F 1 "VCC" H 3565 3123 50  0000 C CNN
-F 2 "" H 3550 2950 50  0001 C CNN
-F 3 "" H 3550 2950 50  0001 C CNN
-	1    3550 2950
+L prinsip-rescue:ATmega8515L-8JU-MCU_Microchip_ATmega U1
+U 1 1 61892ED2
+P 4300 4750
+F 0 "U1" H 4300 7000 50  0000 C CNN
+F 1 "ATmega8515L-8JU" H 4300 6900 50  0000 C CNN
+F 2 "Package_LCC:PLCC-44" H 4300 4750 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2512.pdf" H 4300 4750 50  0001 C CNN
+	1    4300 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L prinsip-rescue:ATmega8515L-8JU-MCU_Microchip_ATmega U?
+U 1 1 61894F8C
+P 11050 4600
+F 0 "U?" H 11050 6781 50  0000 C CNN
+F 1 "ATmega8515L-8JU" H 11050 6690 50  0000 C CNN
+F 2 "Package_LCC:PLCC-44" H 11050 4600 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2512.pdf" H 11050 4600 50  0001 C CNN
+	1    11050 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L prinsip-rescue:CA56-12CGKWA-Display_Character U?
+U 1 1 61AA78F0
+P 5500 9900
+F 0 "U?" H 5500 10567 50  0000 C CNN
+F 1 "CA56-12CGKWA" H 5500 10476 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 5500 9300 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12CGKWA(Ver.9A).pdf" H 5070 9930 50  0001 C CNN
+	1    5500 9900
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	15950 1800 15950 3000
+Wire Bus Line
+	15650 2900 15850 2900
+Entry Bus Bus
+	15850 2900 15950 3000
+Wire Wire Line
+	14000 2900 14250 2900
+Entry Wire Line
+	14250 2900 14350 3000
+Wire Wire Line
+	14000 3000 14250 3000
+Entry Wire Line
+	14250 3000 14350 3100
+Wire Wire Line
+	14000 3100 14250 3100
+Entry Wire Line
+	14250 3100 14350 3200
+Wire Wire Line
+	14000 3200 14250 3200
+Entry Wire Line
+	14250 3200 14350 3300
+Wire Wire Line
+	14000 3300 14250 3300
+Entry Wire Line
+	14250 3300 14350 3400
+Wire Wire Line
+	14000 3400 14250 3400
+Entry Wire Line
+	14250 3400 14350 3500
+Wire Wire Line
+	14000 3500 14250 3500
+Entry Wire Line
+	14250 3500 14350 3600
+Wire Wire Line
+	14000 3600 14250 3600
+Entry Wire Line
+	14250 3600 14350 3700
+Wire Bus Line
+	14350 1800 15950 1800
+Wire Bus Line
+	2550 1800 6350 1800
+Wire Bus Line
+	10050 1600 12600 1600
+Wire Wire Line
+	10450 2900 10150 2900
+Entry Wire Line
+	10050 2800 10150 2900
+Wire Wire Line
+	10450 3000 10150 3000
+Entry Wire Line
+	10050 2900 10150 3000
+Wire Wire Line
+	10450 3100 10150 3100
+Entry Wire Line
+	10050 3000 10150 3100
+Wire Wire Line
+	10450 3200 10150 3200
+Entry Wire Line
+	10050 3100 10150 3200
+Wire Wire Line
+	10450 3300 10150 3300
+Entry Wire Line
+	10050 3200 10150 3300
+Wire Wire Line
+	10450 3400 10150 3400
+Entry Wire Line
+	10050 3300 10150 3400
+Wire Wire Line
+	10450 3500 10150 3500
+Entry Wire Line
+	10050 3400 10150 3500
+Wire Wire Line
+	10450 3600 10150 3600
+Entry Wire Line
+	10050 3500 10150 3600
+Wire Wire Line
+	10450 3800 10150 3800
+Entry Wire Line
+	10050 3700 10150 3800
+Wire Wire Line
+	10450 3900 10150 3900
+Entry Wire Line
+	10050 3800 10150 3900
+Wire Wire Line
+	10450 4000 10150 4000
+Entry Wire Line
+	10050 3900 10150 4000
+Wire Wire Line
+	10450 4100 10150 4100
+Entry Wire Line
+	10050 4000 10150 4100
+Wire Wire Line
+	10450 4200 10150 4200
+Entry Wire Line
+	10050 4100 10150 4200
+Wire Wire Line
+	10450 4300 10150 4300
+Entry Wire Line
+	10050 4200 10150 4300
+Wire Wire Line
+	10450 4400 10150 4400
+Entry Wire Line
+	10050 4300 10150 4400
+Wire Wire Line
+	10450 4500 10150 4500
+Entry Wire Line
+	10050 4400 10150 4500
+Wire Wire Line
+	10450 4700 10150 4700
+Entry Wire Line
+	10050 4600 10150 4700
+Wire Wire Line
+	10450 4800 10150 4800
+Entry Wire Line
+	10050 4700 10150 4800
+Wire Wire Line
+	10450 4900 10150 4900
+Entry Wire Line
+	10050 4800 10150 4900
+Wire Wire Line
+	10450 5000 10150 5000
+Entry Wire Line
+	10050 4900 10150 5000
+Wire Wire Line
+	10450 5100 10150 5100
+Entry Wire Line
+	10050 5000 10150 5100
+Wire Wire Line
+	10450 5200 10150 5200
+Entry Wire Line
+	10050 5100 10150 5200
+Wire Wire Line
+	10450 5300 10150 5300
+Entry Wire Line
+	10050 5200 10150 5300
+Wire Wire Line
+	10450 5400 10150 5400
+Entry Wire Line
+	10050 5300 10150 5400
+Wire Wire Line
+	10450 5600 10150 5600
+Entry Wire Line
+	10050 5500 10150 5600
+Wire Wire Line
+	10450 5700 10150 5700
+Entry Wire Line
+	10050 5600 10150 5700
+Wire Wire Line
+	10450 5800 10150 5800
+Entry Wire Line
+	10050 5700 10150 5800
+Wire Wire Line
+	10450 5900 10150 5900
+Entry Wire Line
+	10050 5800 10150 5900
+Wire Wire Line
+	10450 6000 10150 6000
+Entry Wire Line
+	10050 5900 10150 6000
+Wire Wire Line
+	10450 6100 10150 6100
+Entry Wire Line
+	10050 6000 10150 6100
+Wire Wire Line
+	10450 6200 10150 6200
+Entry Wire Line
+	10050 6100 10150 6200
+Wire Wire Line
+	10450 6300 10150 6300
+Entry Wire Line
+	10050 6200 10150 6300
+Wire Wire Line
+	11050 6600 11050 6650
+Wire Wire Line
+	11050 6650 10150 6650
+Entry Wire Line
+	10050 6550 10150 6650
+$Comp
+L Device:Resonator_Small ZQ1
+U 1 1 61B44BBB
+P 12150 3200
+F 0 "ZQ1" V 12150 3400 50  0000 C CNN
+F 1 "Resonator_Small" V 12384 3150 50  0001 C CNN
+F 2 "" H 12125 3200 50  0001 C CNN
+F 3 "~" H 12125 3200 50  0001 C CNN
+	1    12150 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12050 3100 11650 3100
+Wire Wire Line
+	12050 3300 11650 3300
+Wire Wire Line
+	12350 3200 12500 3200
+Entry Wire Line
+	12500 3200 12600 3300
+Text Notes 11850 3300 0    50   ~ 0
+8МГц
+Text Notes 12200 3000 0    50   ~ 0
+С1\n22нФ
+Text Notes 12200 3550 0    50   ~ 0
+С2\n22нФ
+$Comp
+L Device:Resonator_Small ZQ2
+U 1 1 61B69FF1
+P 3250 3350
+F 0 "ZQ2" V 3250 3550 50  0000 C CNN
+F 1 "Resonator_Small" V 3484 3300 50  0001 C CNN
+F 2 "" H 3225 3350 50  0001 C CNN
+F 3 "~" H 3225 3350 50  0001 C CNN
+	1    3250 3350
+	0    1    1    0   
+$EndComp
+Text Notes 3350 3450 0    50   ~ 0
+8МГц
+Text Notes 3250 3200 2    50   ~ 0
+С1\n22нФ
+Text Notes 3100 3700 0    50   ~ 0
+С2\n22нФ
+Wire Wire Line
+	3350 3250 3700 3250
+Wire Wire Line
+	3700 3450 3350 3450
+Wire Wire Line
+	3050 3350 2650 3350
+Entry Wire Line
+	2550 3250 2650 3350
+Wire Wire Line
+	4900 3050 6250 3050
+Entry Wire Line
+	6250 3050 6350 3150
+Wire Wire Line
+	4900 3150 6250 3150
+Entry Wire Line
+	6250 3150 6350 3250
+Wire Wire Line
+	4900 3250 6250 3250
+Entry Wire Line
+	6250 3250 6350 3350
+Wire Wire Line
+	4900 3350 6250 3350
+Entry Wire Line
+	6250 3350 6350 3450
+Wire Wire Line
+	4900 3450 6250 3450
+Entry Wire Line
+	6250 3450 6350 3550
+Wire Wire Line
+	4900 3550 6250 3550
+Entry Wire Line
+	6250 3550 6350 3650
+Wire Wire Line
+	4900 3650 6250 3650
+Entry Wire Line
+	6250 3650 6350 3750
+Wire Wire Line
+	4900 3750 6250 3750
+Entry Wire Line
+	6250 3750 6350 3850
+Wire Wire Line
+	4900 4050 6250 4050
+Entry Wire Line
+	6250 4050 6350 4150
+Wire Wire Line
+	4900 4150 6250 4150
+Entry Wire Line
+	6250 4150 6350 4250
+Wire Wire Line
+	4900 4250 6250 4250
+Entry Wire Line
+	6250 4250 6350 4350
+Wire Wire Line
+	4900 4850 6250 4850
+Entry Wire Line
+	6250 4850 6350 4950
+Wire Wire Line
+	4900 4950 6250 4950
+Entry Wire Line
+	6250 4950 6350 5050
+Wire Wire Line
+	4900 5050 6250 5050
+Entry Wire Line
+	6250 5050 6350 5150
+Wire Wire Line
+	4900 5150 6250 5150
+Entry Wire Line
+	6250 5150 6350 5250
+Wire Wire Line
+	4900 5250 6250 5250
+Entry Wire Line
+	6250 5250 6350 5350
+Wire Wire Line
+	4900 5350 6250 5350
+Entry Wire Line
+	6250 5350 6350 5450
+Wire Wire Line
+	4900 5450 6250 5450
+Entry Wire Line
+	6250 5450 6350 5550
+Wire Wire Line
+	4900 5550 6250 5550
+Entry Wire Line
+	6250 5550 6350 5650
+Wire Wire Line
+	4300 6750 4300 6850
+Wire Wire Line
+	4300 6850 2650 6850
+Entry Wire Line
+	2550 6750 2650 6850
+Wire Wire Line
+	4300 2750 4300 2700
+Wire Wire Line
+	4300 2700 2650 2700
+Entry Wire Line
+	2550 2600 2650 2700
+Connection ~ 12600 4450
+Wire Wire Line
+	11650 5700 12500 5700
+Entry Wire Line
+	12500 5700 12600 5800
+Wire Wire Line
+	11650 5800 12500 5800
+Entry Wire Line
+	12500 5800 12600 5900
+Wire Wire Line
+	14650 2900 14450 2900
+Entry Wire Line
+	14350 2800 14450 2900
+Wire Wire Line
+	14650 3000 14450 3000
+Entry Wire Line
+	14350 2900 14450 3000
+Wire Wire Line
+	14650 3100 14450 3100
+Entry Wire Line
+	14350 3000 14450 3100
+Wire Wire Line
+	14650 3200 14450 3200
+Entry Wire Line
+	14350 3100 14450 3200
+Wire Wire Line
+	14650 3300 14450 3300
+Entry Wire Line
+	14350 3200 14450 3300
+Wire Wire Line
+	13500 4200 13500 4350
+Entry Wire Line
+	13500 4350 13600 4450
+Wire Wire Line
+	13500 2600 12700 2600
+Entry Wire Line
+	12600 2500 12700 2600
+Wire Wire Line
+	7450 5450 6450 5450
+Entry Wire Line
+	6350 5350 6450 5450
+$Comp
+L Device:C C?
+U 1 1 61C21B72
+P 7200 4600
+F 0 "C?" H 7315 4646 50  0000 L CNN
+F 1 "1мкФ" H 7315 4555 50  0000 L CNN
+F 2 "" H 7238 4450 50  0001 C CNN
+F 3 "~" H 7200 4600 50  0001 C CNN
+	1    7200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C22D12
+P 9300 4600
+F 0 "C?" H 9415 4646 50  0000 L CNN
+F 1 "1мкФ" H 9415 4555 50  0000 L CNN
+F 2 "" H 9338 4450 50  0001 C CNN
+F 3 "~" H 9300 4600 50  0001 C CNN
+	1    9300 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10550 3800 10550 1300
+	7200 4450 7450 4450
 Wire Wire Line
-	11300 3900 10450 3900
+	7450 4750 7200 4750
 Wire Wire Line
-	10450 3900 10450 1450
+	9050 4450 9300 4450
 Wire Wire Line
-	10450 1450 1950 1450
+	9300 4750 9050 4750
+$Comp
+L Device:C C?
+U 1 1 61C509DA
+P 9350 4950
+F 0 "C?" V 9098 4950 50  0000 C CNN
+F 1 "C" V 9189 4950 50  0000 C CNN
+F 2 "" H 9388 4800 50  0001 C CNN
+F 3 "~" H 9350 4950 50  0001 C CNN
+	1    9350 4950
+	0    1    1    0   
+$EndComp
+Entry Wire Line
+	9950 4950 10050 5050
+$Comp
+L Device:C C?
+U 1 1 61C5E6E2
+P 9700 5250
+F 0 "C?" V 9448 5250 50  0000 C CNN
+F 1 "C" V 9539 5250 50  0000 C CNN
+F 2 "" H 9738 5100 50  0001 C CNN
+F 3 "~" H 9700 5250 50  0001 C CNN
+	1    9700 5250
+	0    1    1    0   
+$EndComp
+Entry Wire Line
+	9950 5250 10050 5350
+Wire Wire Line
+	9850 5250 9950 5250
+Wire Wire Line
+	9050 5250 9550 5250
+Wire Wire Line
+	9500 4950 9950 4950
+Wire Wire Line
+	9050 4950 9200 4950
+Wire Wire Line
+	8250 1600 8250 1650
+Wire Wire Line
+	8250 6550 8250 6650
+Entry Wire Line
+	8250 6650 8350 6750
+Entry Wire Line
+	6350 4050 6450 4150
+Wire Wire Line
+	6450 4150 8250 4150
+Entry Wire Line
+	9950 1600 10050 1700
+Wire Wire Line
+	8250 1600 9950 1600
+Wire Wire Line
+	8250 3850 9950 3850
+Entry Wire Line
+	9950 3850 10050 3950
+Wire Wire Line
+	7550 1950 6450 1950
+Entry Wire Line
+	6350 1850 6450 1950
+Wire Wire Line
+	7550 2050 6450 2050
+Entry Wire Line
+	6350 1950 6450 2050
+Wire Wire Line
+	7550 2150 6450 2150
+Entry Wire Line
+	6350 2050 6450 2150
+Wire Wire Line
+	7550 2250 6450 2250
+Entry Wire Line
+	6350 2150 6450 2250
+Wire Wire Line
+	7550 2350 6450 2350
+Entry Wire Line
+	6350 2250 6450 2350
+Wire Wire Line
+	7550 2450 6450 2450
+Entry Wire Line
+	6350 2350 6450 2450
+Wire Wire Line
+	7550 2550 6450 2550
+Entry Wire Line
+	6350 2450 6450 2550
+Wire Wire Line
+	7550 2650 6450 2650
+Entry Wire Line
+	6350 2550 6450 2650
+Wire Wire Line
+	7550 2850 6450 2850
+Entry Wire Line
+	6350 2750 6450 2850
+Wire Wire Line
+	7550 2950 6450 2950
+Entry Wire Line
+	6350 2850 6450 2950
+Wire Wire Line
+	7550 3050 6450 3050
+Entry Wire Line
+	6350 2950 6450 3050
+Wire Wire Line
+	7550 3150 6450 3150
+Entry Wire Line
+	6350 3050 6450 3150
+Wire Wire Line
+	7550 3250 6450 3250
+Entry Wire Line
+	6350 3150 6450 3250
+Wire Wire Line
+	7550 3350 6450 3350
+Entry Wire Line
+	6350 3250 6450 3350
+Wire Wire Line
+	7550 3450 6450 3450
+Entry Wire Line
+	6350 3350 6450 3450
+Wire Wire Line
+	7550 3550 6450 3550
+Entry Wire Line
+	6350 3450 6450 3550
+Wire Wire Line
+	8950 3350 9950 3350
+Entry Wire Line
+	9950 3350 10050 3450
+Wire Wire Line
+	8950 3450 9950 3450
+Entry Wire Line
+	9950 3450 10050 3550
+Wire Wire Line
+	8950 3550 9950 3550
+Entry Wire Line
+	9950 3550 10050 3650
+Wire Wire Line
+	8950 2850 9950 2850
+Entry Wire Line
+	9950 2850 10050 2950
+Wire Wire Line
+	8950 1950 9950 1950
+Entry Wire Line
+	9950 1950 10050 2050
+Wire Wire Line
+	8950 2050 9950 2050
+Entry Wire Line
+	9950 2050 10050 2150
+Wire Wire Line
+	8950 2150 9950 2150
+Entry Wire Line
+	9950 2150 10050 2250
+Wire Wire Line
+	8950 2250 9950 2250
+Entry Wire Line
+	9950 2250 10050 2350
+Entry Wire Line
+	8700 10000 8800 10100
+Wire Wire Line
+	7800 10000 8700 10000
+Entry Wire Line
+	8700 9650 8800 9750
+Wire Wire Line
+	7800 9650 8700 9650
+Entry Wire Line
+	8700 9300 8800 9400
+Wire Wire Line
+	7800 9300 8700 9300
+Entry Wire Line
+	8700 8950 8800 9050
+Wire Wire Line
+	7800 8950 8700 8950
+Entry Wire Line
+	8700 10350 8800 10450
+Wire Wire Line
+	7800 10350 8700 10350
 Wire Bus Line
-	14050 1850 14800 1850
+	2550 10850 4200 10850
 Wire Bus Line
-	11200 4100 11200 4400
+	4200 8550 6850 8550
 Wire Bus Line
-	9100 3050 9100 4100
+	6850 10800 8800 10800
+Wire Wire Line
+	4400 9600 4300 9600
+Entry Wire Line
+	4200 9500 4300 9600
+Wire Wire Line
+	4400 9700 4300 9700
+Entry Wire Line
+	4200 9600 4300 9700
+Wire Wire Line
+	4400 9800 4300 9800
+Entry Wire Line
+	4200 9700 4300 9800
+Wire Wire Line
+	4400 9900 4300 9900
+Entry Wire Line
+	4200 9800 4300 9900
+Wire Wire Line
+	4400 10000 4300 10000
+Entry Wire Line
+	4200 9900 4300 10000
+Wire Wire Line
+	4400 10100 4300 10100
+Entry Wire Line
+	4200 10000 4300 10100
+Wire Wire Line
+	4400 10200 4300 10200
+Entry Wire Line
+	4200 10100 4300 10200
+Wire Wire Line
+	4400 10300 4300 10300
+Entry Wire Line
+	4200 10200 4300 10300
+Wire Wire Line
+	6600 10000 6750 10000
+Entry Wire Line
+	6750 10000 6850 10100
+Wire Wire Line
+	6600 10100 6750 10100
+Entry Wire Line
+	6750 10100 6850 10200
+Wire Wire Line
+	6600 10200 6750 10200
+Entry Wire Line
+	6750 10200 6850 10300
+Wire Wire Line
+	6600 10300 6750 10300
+Entry Wire Line
+	6750 10300 6850 10400
+Wire Wire Line
+	4050 8900 4100 8900
+Entry Wire Line
+	4100 8900 4200 9000
+Wire Wire Line
+	4050 9000 4100 9000
+Entry Wire Line
+	4100 9000 4200 9100
+Wire Wire Line
+	4050 9100 4100 9100
+Entry Wire Line
+	4100 9100 4200 9200
+Wire Wire Line
+	4050 9200 4100 9200
+Entry Wire Line
+	4100 9200 4200 9300
+Wire Wire Line
+	4050 8700 4100 8700
+Entry Wire Line
+	4100 8700 4200 8800
+Wire Wire Line
+	4050 9600 4100 9600
+Entry Wire Line
+	4100 9600 4200 9700
+Wire Wire Line
+	4050 9700 4100 9700
+Entry Wire Line
+	4100 9700 4200 9800
+Wire Wire Line
+	4050 9800 4100 9800
+Entry Wire Line
+	4100 9800 4200 9900
+Wire Wire Line
+	4050 9900 4100 9900
+Entry Wire Line
+	4100 9900 4200 10000
+Wire Wire Line
+	4050 10000 4100 10000
+Entry Wire Line
+	4100 10000 4200 10100
+Wire Wire Line
+	4050 10100 4100 10100
+Entry Wire Line
+	4100 10100 4200 10200
+Wire Wire Line
+	4050 10200 4100 10200
+Entry Wire Line
+	4100 10200 4200 10300
+Wire Wire Line
+	4050 10300 4100 10300
+Entry Wire Line
+	4100 10300 4200 10400
+Wire Wire Line
+	4050 10500 4100 10500
+Entry Wire Line
+	4100 10500 4200 10600
+Entry Wire Line
+	2550 8800 2650 8900
+Entry Wire Line
+	2550 9000 2650 9100
+Entry Wire Line
+	8850 6000 8950 6100
+Entry Wire Line
+	9700 7900 9800 8000
+Wire Wire Line
+	13000 2900 12700 2900
+Entry Wire Line
+	12600 2800 12700 2900
+Wire Wire Line
+	13000 3000 12700 3000
+Entry Wire Line
+	12600 2900 12700 3000
+Wire Wire Line
+	13000 3100 12700 3100
+Entry Wire Line
+	12600 3000 12700 3100
+Wire Wire Line
+	13000 3200 12700 3200
+Entry Wire Line
+	12600 3100 12700 3200
+Wire Wire Line
+	13000 3300 12700 3300
+Entry Wire Line
+	12600 3200 12700 3300
+Wire Wire Line
+	13000 3400 12700 3400
+Entry Wire Line
+	12600 3300 12700 3400
+Wire Wire Line
+	13000 3500 12700 3500
+Entry Wire Line
+	12600 3400 12700 3500
+Wire Wire Line
+	13000 3600 12700 3600
+Entry Wire Line
+	12600 3500 12700 3600
+Wire Wire Line
+	13000 3800 12700 3800
+Entry Wire Line
+	12600 3700 12700 3800
+Wire Wire Line
+	13000 3900 12700 3900
+Entry Wire Line
+	12600 3800 12700 3900
+$Comp
+L prinsip-rescue:SW_MEC_5G-Switch SW?
+U 1 1 620DE12F
+P 3200 3050
+F 0 "SW?" H 3200 3243 50  0000 C CNN
+F 1 "SW_MEC_5G-Switch" H 3200 3244 50  0001 C CNN
+F 2 "" H 3200 3250 50  0001 C CNN
+F 3 "" H 3200 3250 50  0001 C CNN
+	1    3200 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3050 3400 3050
+Wire Wire Line
+	3000 3050 2650 3050
 Wire Bus Line
-	11200 4600 11200 5300
+	6350 6750 10050 6750
 Wire Bus Line
-	14050 1000 14050 1850
+	12600 4450 14350 4450
 Wire Bus Line
-	7500 3850 7500 4750
+	12600 4450 12600 5950
 Wire Bus Line
-	5000 4750 5000 5650
+	6850 8550 6850 10800
 Wire Bus Line
-	11200 400  11200 3500
+	8800 7400 8800 10800
+Wire Bus Line
+	2550 1800 2550 10850
+Wire Bus Line
+	14350 1800 14350 4450
+Wire Bus Line
+	4200 8550 4200 10850
+Wire Bus Line
+	12600 1600 12600 4450
+Wire Bus Line
+	6350 1800 6350 6750
+Wire Bus Line
+	10050 1600 10050 6750
+Entry Wire Line
+	2550 2950 2650 3050
 $EndSCHEMATC

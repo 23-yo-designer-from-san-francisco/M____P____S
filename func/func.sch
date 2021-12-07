@@ -1134,8 +1134,6 @@ Wire Bus Line
 	10850 1200 10850 1750
 Wire Bus Line
 	8750 1750 10850 1750
-Wire Wire Line
-	8800 2000 12600 2000
 Entry Bus Bus
 	9750 1100 9850 1200
 Wire Bus Line
@@ -1711,6 +1709,8 @@ Wire Wire Line
 	2200 6250 2200 6500
 Wire Wire Line
 	1500 6250 1500 6500
+Wire Wire Line
+	8800 2000 12650 2000
 Wire Bus Line
 	1250 5800 3950 5800
 Wire Bus Line
