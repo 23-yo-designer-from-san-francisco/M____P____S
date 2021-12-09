@@ -438,19 +438,6 @@ S -450 -50 450 -300 0 1 0 N
 ENDDRAW
 ENDDEF
 #
-# Graphic_SYM_Arrow_Small
-#
-DEF Graphic_SYM_Arrow_Small #SYM 0 40 Y Y 1 F N
-F0 "#SYM" 0 60 50 H I C CNN
-F1 "Graphic_SYM_Arrow_Small" 10 -50 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 10 60 0 -80 0 N
-P 4 0 1 0 80 0 30 -20 30 20 80 0 F
-ENDDRAW
-ENDDEF
-#
 # Graphic_SYM_Arrow_Tiny
 #
 DEF Graphic_SYM_Arrow_Tiny #SYM 0 40 Y Y 1 F N

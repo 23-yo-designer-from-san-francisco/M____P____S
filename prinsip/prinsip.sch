@@ -29,7 +29,7 @@ L prinsip-rescue:SW_MEC_5G-Switch SW1
 U 1 1 618A64A7
 P 7600 8950
 F 0 "SW1" H 7600 9235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7600 9144 50  0000 C CNN
+F 1 "Выбрать канал 1" H 7600 9144 50  0000 C CNN
 F 2 "" H 7600 9150 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7600 9150 50  0001 C CNN
 	1    7600 8950
@@ -51,7 +51,7 @@ L prinsip-rescue:SW_MEC_5G-Switch SW2
 U 1 1 618AE5B4
 P 7600 9300
 F 0 "SW2" H 7600 9585 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7600 9494 50  0000 C CNN
+F 1 "Выбрать канал 2" H 7600 9494 50  0000 C CNN
 F 2 "" H 7600 9500 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7600 9500 50  0001 C CNN
 	1    7600 9300
@@ -62,7 +62,7 @@ L prinsip-rescue:SW_MEC_5G-Switch SW3
 U 1 1 618AFC40
 P 7600 9650
 F 0 "SW3" H 7600 9935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7600 9844 50  0000 C CNN
+F 1 "Выбрать канал 3" H 7600 9844 50  0000 C CNN
 F 2 "" H 7600 9850 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7600 9850 50  0001 C CNN
 	1    7600 9650
@@ -73,7 +73,7 @@ L prinsip-rescue:SW_MEC_5G-Switch SW4
 U 1 1 618B119B
 P 7600 10000
 F 0 "SW4" H 7600 10285 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7600 10194 50  0000 C CNN
+F 1 "Выбрать канал 4" H 7600 10194 50  0000 C CNN
 F 2 "" H 7600 10200 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7600 10200 50  0001 C CNN
 	1    7600 10000
@@ -84,7 +84,7 @@ L prinsip-rescue:SW_MEC_5G-Switch SW5
 U 1 1 618B1C38
 P 7600 10350
 F 0 "SW5" H 7600 10635 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7600 10544 50  0000 C CNN
+F 1 "Выбрать канал 5" H 7600 10544 50  0000 C CNN
 F 2 "" H 7600 10550 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7600 10550 50  0001 C CNN
 	1    7600 10350
@@ -1297,8 +1297,6 @@ Text Notes 14450 3400 0    50   ~ 0
 VCC
 Text Notes 14450 3500 0    50   ~ 0
 GND
-Wire Bus Line
-	8900 7800 8900 8300
 $Comp
 L prinsip-rescue:USBASP U?
 U 1 1 61FBE46C
@@ -1386,12 +1384,16 @@ Text Notes 14450 2150 0    50   ~ 0
 MISO
 Wire Wire Line
 	14850 2450 14850 2600
+Text Notes 14450 2600 0    50   ~ 0
+RST
 Wire Bus Line
 	9150 5350 9150 5650
 Wire Bus Line
 	6350 6750 10050 6750
 Wire Bus Line
 	12600 4450 14350 4450
+Wire Bus Line
+	8900 7800 8900 8300
 Wire Bus Line
 	15950 1800 15950 3000
 Wire Bus Line
@@ -1410,6 +1412,4 @@ Wire Bus Line
 	6350 1800 6350 6750
 Wire Bus Line
 	10050 1600 10050 6750
-Text Notes 14450 2600 0    50   ~ 0
-RST
 $EndSCHEMATC
